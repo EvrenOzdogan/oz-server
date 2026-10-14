@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oz Server</title>
+<meta name="description" content="Oz Server: first-person Project Zomboid in a rebuilt Manhattan. 30-storey towers, working elevators, countryside and towns. PvP, factions, /sethome. Build 42.21.">
+<meta property="og:title" content="Oz Server — New York, rebuilt">
+<meta property="og:description" content="First-person Project Zomboid in a dead Manhattan. One Steam collection installs everything.">
+<meta property="og:image" content="https://evrenozdogan.github.io/oz-server/banner.png">
+<link rel="icon" href="icon.png">
+<style>
+:root{--bg:#0c0e12;--panel:#151922;--text:#eceff4;--muted:#aab2bf;--accent:#f5a623;--green:#00933c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 "Bahnschrift","Segoe UI",system-ui,sans-serif}
+a{color:var(--accent)}.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.hero{position:relative;background:#000 url(banner.png) center/cover no-repeat;min-height:52vh;display:flex;align-items:flex-end}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,14,18,.1) 0%,rgba(12,14,18,.92) 100%)}
+.hero .wrap{position:relative;z-index:1;padding-bottom:32px;padding-top:120px}
+h1{font-family:Impact,"Arial Narrow Bold",sans-serif;font-size:clamp(44px,9vw,96px);letter-spacing:1px;margin:0;line-height:.95;text-transform:uppercase}
+.tag{color:var(--accent);font-weight:700;font-size:clamp(16px,2.6vw,24px);text-transform:uppercase;letter-spacing:.5px;margin:10px 0 18px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:14px 22px;border-radius:6px;font-weight:700;text-decoration:none;color:#111;background:var(--accent)}
+.btn.alt{background:#5865F2;color:#fff}.btn.ghost{background:transparent;color:var(--text);border:2px solid #3a4150}
+section{padding:40px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--panel);border:1px solid #232a36;border-radius:10px;padding:22px}.card h3{margin:0 0 8px;font-size:20px;color:var(--accent);text-transform:uppercase;font-family:Impact,sans-serif;letter-spacing:.5px}
+.card p{margin:0;color:var(--muted)}
+h2{font-family:Impact,sans-serif;font-size:36px;letter-spacing:.5px;text-transform:uppercase;margin:0 0 18px;border-left:6px solid var(--accent);padding-left:14px}
+ol.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:12px}ol.steps li{background:var(--panel);border:1px solid #232a36;border-radius:10px;padding:18px 18px 18px 64px;position:relative}
+ol.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:18px;top:16px;width:32px;height:32px;border-radius:50%;background:var(--green);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center}
+code{background:#0a0c10;border:1px solid #2a3140;border-radius:4px;padding:2px 6px;color:#ffd48a}
+.kv{display:grid;grid-template-columns:140px 1fr;gap:6px 14px;background:var(--panel);border:1px solid #232a36;border-radius:10px;padding:18px}.kv b{color:var(--muted);font-weight:600}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.shots img{width:100%;border-radius:10px;border:1px solid #232a36}
+footer{padding:30px 0 50px;color:#7c8594;font-size:14px;border-top:1px solid #1d2330;margin-top:20px}
+@media (max-width:520px){.kv{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>Oz Server</h1>
+<div class="tag">Massive city · First / third person · PvP · /sethome</div>
+<p style="max-width:720px;margin:0 0 20px;font-size:18px">Project Zomboid Build 42, in first person, in a Manhattan rebuilt from real map data. 30-storey towers with working elevators, countryside and small towns beyond, Raven Creek and Raccoon City. One Steam collection installs everything.</p>
+<div class="btns">
+<a class="btn" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155">Subscribe to the modpack</a>
+<a class="btn alt" href="https://discord.gg/v6JMDRYfX8">Join the Discord</a>
+<a class="btn ghost" href="#join">How to join</a>
+</div></div></header>
+
+<section class="wrap"><h2>What makes it different</h2><div class="grid">
+<div class="card"><h3>First person</h3><p>Project Viewpoint: DayZ-style aiming and recoil, true ballistics, lean, prone and vault. Switch to third person any time.</p></div>
+<div class="card"><h3>A real city</h3><p>Midtown Manhattan from OpenStreetMap data: the street grid, avenues and parks, 30-storey towers, working elevators, farmland and towns around it.</p></div>
+<div class="card"><h3>Deep survival</h3><p>180+ curated mods: overhauled weather and lighting, immersive effects, vehicles, loot and crafting depth.</p></div>
+<div class="card"><h3>PvP with rules</h3><p>Safety toggle, factions, protected safehouses. Waystones mark PvP hot zones with supply drops.</p></div>
+<div class="card"><h3>Quality of life</h3><p><code>/sethome</code> and <code>/home</code>, fast travel between waystones you have found, spawn selector, in-game rules panel and <code>/help</code>.</p></div>
+<div class="card"><h3>Fresh world</h3><p>Build 42.21, 24/7 hosting, backups every 6 hours, active admin, Discord support.</p></div>
+</div></section>
+
+<section class="wrap" id="join"><h2>How to join (5 minutes)</h2><ol class="steps">
+<li><b>Subscribe to the collection</b> with one click ("Subscribe to all"): <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155">Oz Server Modpack</a>. Let Steam finish downloading.</li>
+<li><b>Install ZombieBuddy</b> once (the Java loader Project Viewpoint needs, not on the Workshop): <a href="https://github.com/zed-0xff/ZombieBuddy/releases">ZombieBuddyInstaller.exe</a>, choose <b>Both</b>. On first launch approve the Java mods.</li>
+<li><b>Join:</b> Project Zomboid → Join → add server <code>208.75.182.159</code> port <code>28090</code>. The password is in the <a href="https://discord.gg/v6JMDRYfX8">Discord</a> join channel.</li>
+<li><b>Optional:</b> give the game more memory for the big city: in <code>ProjectZomboid64.json</code> change <code>-Xmx3072m</code> to <code>-Xmx8g</code> (16 GB RAM or more).</li>
+</ol>
+<p style="color:var(--muted);margin-top:14px">Controls: <code>O</code> first person · <code>V</code> aim · <code>Q</code>/<code>E</code> lean · hold crouch = prone · <code>Space</code> vault · <code>Delete</code> graphics. Requirements: Build 42.21, 6 GB+ VRAM (texture compression on below 12 GB), Windows or Linux. macOS and Intel Arc are not supported by Viewpoint.</p></section>
+
+<section class="wrap"><h2>Server</h2><div class="kv">
+<b>Address</b><span><code>208.75.182.159:28090</code></span>
+<b>Version</b><span>Project Zomboid Build 42.21</span>
+<b>Mode</b><span>PvP with safety system · factions · protected safehouses</span>
+<b>Map</b><span>OzNYC (Midtown + countryside) · Raven Creek · Raccoon City · Distanciado · Knox Country</span>
+<b>Modpack</b><span><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155">Steam collection</a></span>
+<b>Discord</b><span><a href="https://discord.gg/v6JMDRYfX8">discord.gg/v6JMDRYfX8</a></span>
+<b>Hosting</b><span><a href="https://indifferentbroccoli.com/servers/projectzomboid/6a7fc1d38017987478ffd800">Indifferent Broccoli server page</a></span>
+</div></section>
+
+<section class="wrap"><h2>Our mods</h2><div class="shots">
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819445771"><img src="nyc.png" alt="OzNYC map"></a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819445749"><img src="waystones.png" alt="Oz Waystones"></a>
+</div>
+<p style="color:var(--muted)">Also: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819445594">Oz Server Pack</a> · <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819445671">Oz Home</a> · <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819445692">Oz Server Tweaks</a> · <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819445719">OzLook shader pack</a></p></section>
+
+<footer class="wrap">Oz Server is an unofficial community server, not affiliated with The Indie Stone or the Project Viewpoint authors. Map data © OpenStreetMap contributors (ODbL), built with KnoxMap. Every mod author is credited on their Workshop page.</footer>
+</body></html>
