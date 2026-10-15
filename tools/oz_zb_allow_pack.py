@@ -171,6 +171,9 @@ def build_list(a, libs):
 
 
 def main():
+    for _s in (sys.stdout, sys.stderr):
+        try: _s.reconfigure(encoding='utf-8', errors='replace')
+        except Exception: pass
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--dry-run', action='store_true', help='show the table, change nothing')
     ap.add_argument('--steam-dir')
