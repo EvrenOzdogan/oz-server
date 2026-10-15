@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-15T10:20:33Z",
+ "generated": "2026-10-15T12:30:03Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -9,6 +9,14 @@
    "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
    "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
    "signed": false
+  },
+  {
+   "workshop_id": "3814398576",
+   "item": "[BROKEN] Surface Fix - Project Viewpoint",
+   "mod_id": "ViewpointSurface",
+   "jar": "mods/ViewpointSurface/42/media/java/client/ViewpointInteriorSurfaces.jar",
+   "sha256": "fd1aff03b07fd7a79296b14698f6ea155c073673940dc09e88171b6ce76b3a1c",
+   "signed": true
   },
   {
    "workshop_id": "3815033191",
@@ -95,7 +103,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "46be74f33977e019b9827f8d42a203ca44613741d533e82e85cc4dee3d8a051f",
+   "sha256": "51c0e5fce5702ba2b3bf4af6c12f207b84439633a660b78c4de34ce2bfff5264",
    "signed": false
   },
   {
@@ -235,14 +243,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3814398576",
-   "item": "Surface Fix - Project Viewpoint",
-   "mod_id": "ViewpointSurface",
-   "jar": "mods/ViewpointSurface/42/media/java/client/ViewpointInteriorSurfaces.jar",
-   "sha256": "fd1aff03b07fd7a79296b14698f6ea155c073673940dc09e88171b6ce76b3a1c",
-   "signed": true
-  },
-  {
    "workshop_id": "3813194971",
    "item": "Viewpoint - Advanced Throwables",
    "mod_id": "ViewpointAdvancedThrowables",
@@ -271,7 +271,7 @@
    "item": "Viewpoint - Interface",
    "mod_id": "ViewpointUI",
    "jar": "mods/ViewpointUI/42/media/java/client/ViewpointUI.jar",
-   "sha256": "b22cf598c6a6d32f4a46f10b19c9b6dd92539c75dec69669d9f7e73cce70e433",
+   "sha256": "8a8b7be4fa2c3179fc2aff5d0b6876f3576ef50215e66a192a5846f36eeab5e9",
    "signed": false
   },
   {
