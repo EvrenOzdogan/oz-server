@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-15T17:02:08Z",
+ "generated": "2026-10-15T21:38:00Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -103,7 +103,7 @@
    "item": "Oz Server Pack",
    "mod_id": "OzServerPack",
    "jar": "mods/OzServerPack/42/media/java/OzServerPack.jar",
-   "sha256": "ac3ca2c5a9be845056d0f9893571ab80a770211a4e15b64a7388d04a65f07830",
+   "sha256": "238fb2604c067390900dc157eda2238c6f06e6886e6957970e2dab5ca1d7a3ea",
    "signed": false
   },
   {
@@ -148,7 +148,7 @@
   },
   {
    "workshop_id": "3810179295",
-   "item": "Project Viewpoint / PZ3D Minimap (3D Marking Beams · Off-Screen Alarm · Rotates With You · Floor Plans) [B42.21.0] [SP/MP]",
+   "item": "Project Viewpoint / PZ3D Minimap (Optional Off-Screen Zombie Alarm · 3D Marking Beams) [B42.21.0] [SP/MP]",
    "mod_id": "aparosa_pz3dMinimap",
    "jar": "mods/pz3dMinimap/42/media/java/pz3dMinimap.jar",
    "sha256": "f975e0ae5876d42837ef3ecc63efa182d4f636c5a188be32f24fb0c25a7eb233",
