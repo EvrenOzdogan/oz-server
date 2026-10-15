@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-15T06:41:36Z",
+ "generated": "2026-10-15T07:14:58Z",
  "jars": [
   {
    "workshop_id": "3811472160",
