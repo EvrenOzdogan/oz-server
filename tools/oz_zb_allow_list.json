@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-15T12:30:03Z",
+ "generated": "2026-10-15T17:02:08Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -9,14 +9,6 @@
    "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
    "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
    "signed": false
-  },
-  {
-   "workshop_id": "3814398576",
-   "item": "[BROKEN] Surface Fix - Project Viewpoint",
-   "mod_id": "ViewpointSurface",
-   "jar": "mods/ViewpointSurface/42/media/java/client/ViewpointInteriorSurfaces.jar",
-   "sha256": "fd1aff03b07fd7a79296b14698f6ea155c073673940dc09e88171b6ce76b3a1c",
-   "signed": true
   },
   {
    "workshop_id": "3815033191",
@@ -103,7 +95,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "51c0e5fce5702ba2b3bf4af6c12f207b84439633a660b78c4de34ce2bfff5264",
+   "sha256": "0e6955d47c900dcf52c137c1b6de24360abf189cf454dc3f4b390914de02b4ff",
    "signed": false
   },
   {
@@ -241,6 +233,14 @@
    "jar": "mods/ViewpointSourceMovement/42/media/java/SourceMovement.jar",
    "sha256": "3d93798f5f6bd6bba001001104f57988126bdfc59f626433b42af1d9b9b25ebf",
    "signed": false
+  },
+  {
+   "workshop_id": "3814398576",
+   "item": "Surface Fix - Project Viewpoint",
+   "mod_id": "ViewpointSurface",
+   "jar": "mods/ViewpointSurface/42/media/java/client/ViewpointInteriorSurfaces.jar",
+   "sha256": "6827e2cfb215acd388385d6c72b7801ff9dfb9c200aa2a19e171bed02f1000e2",
+   "signed": true
   },
   {
    "workshop_id": "3813194971",
