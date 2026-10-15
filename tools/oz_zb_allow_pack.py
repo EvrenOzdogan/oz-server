@@ -25,7 +25,11 @@ Close Project Zomboid first (ZombieBuddy rewrites the file while it runs).
 Usage:  python oz_zb_allow_pack.py [--dry-run] [--steam-dir DIR] [--list FILE]
 
 Server admins only (rebuild the allow list from this PC's Workshop copies after review):
-        python oz_zb_allow_pack.py --build-list --server-mods "ModA;ModB;..." --ids oz_server_mod_ids.json
+        python oz_zb_allow_pack.py --build-list --server-mods "ModA;ModB;..." --ids oz_server_mod_ids.json \
+            --oz-ids "id1,id2,..." [--pending-out FILE] [--refresh-third-party] [--out FILE]
+  Only jars from the --oz-ids items (our own Workshop items) are re-pinned automatically. A changed
+  or new THIRD-PARTY jar keeps its old pin (or stays off the list) and is reported as pending for
+  manual review; --refresh-third-party applies those changes deliberately.
 """
 import argparse, datetime, hashlib, json, os, re, shutil, sys
 
@@ -114,7 +118,18 @@ def mod_folder_info(item_dir, jar_rel):
 
 
 def workshop_titles(ids):
-    """Public Steam Web API (no key). Admin build step only; players never call this."""
+    return {k: v['title'] for k, v in workshop_details(ids).items() if v.get('title')}
+
+
+def _ts(t):
+    if not t:
+        return '?'
+    return datetime.datetime.fromtimestamp(int(t), datetime.timezone.utc).strftime('%Y-%m-%d %H:%MZ')
+
+
+def workshop_details(ids):
+    """Public Steam Web API (no key). Admin build step only; players never call this.
+    Returns {id: {'title': str, 'time_updated': int}}."""
     import urllib.parse, urllib.request
     out, ids = {}, list(ids)
     for k in range(0, len(ids), 50):
@@ -128,10 +143,10 @@ def workshop_titles(ids):
         try:
             r = json.load(urllib.request.urlopen(req, timeout=20))
             for d in r['response'].get('publishedfiledetails', []):
-                if d.get('title'):
-                    out[d['publishedfileid']] = d['title']
+                out[d['publishedfileid']] = {'title': d.get('title', ''),
+                                             'time_updated': d.get('time_updated', 0)}
         except Exception as e:
-            print(f'(could not fetch Workshop titles: {e})')
+            print(f'(could not fetch Workshop details: {e})')
     return out
 
 
@@ -157,17 +172,74 @@ def build_list(a, libs):
             continue
         entries.append({'workshop_id': wid, 'item': titles.get(wid, mname), 'mod_id': mid,
                         'jar': rel, 'sha256': sha256(p), 'signed': os.path.isfile(p + '.zbs')})
-    entries.sort(key=lambda e: (e['item'].lower(), e['jar'].lower()))
+    # Security policy: only our own Workshop items (--oz-ids) are re-pinned automatically. A third-party
+    # jar whose hash changed keeps its OLD pin, and a new third-party jar stays off the list, until an
+    # admin reviews it and reruns with --refresh-third-party.
+    prev_doc = json.load(open(a.list, encoding='utf-8')) if os.path.isfile(a.list) else {}
+    prev = {(str(e['workshop_id']), e['jar']): e for e in prev_doc.get('jars', [])}
+    oz = {x for x in re.split(r'[,;\s]+', a.oz_ids or '') if x}
+    final, pending = [], []
+    for e in entries:
+        o = prev.get((e['workshop_id'], e['jar']))
+        if e['workshop_id'] in oz or a.refresh_third_party or (o and o['sha256'] == e['sha256']):
+            final.append(e)
+        elif o:
+            final.append(o)
+            pending.append(('changed', e, o))
+        else:
+            pending.append(('new', e, None))
+    newkeys = {(e['workshop_id'], e['jar']) for e in entries}
+    dropped = [o for k, o in prev.items() if k not in newkeys]
+    final.sort(key=lambda e: (e['item'].lower(), e['jar'].lower()))
+    gen = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    if prev_doc.get('jars') == final and prev_doc.get('generated'):
+        gen = prev_doc['generated']  # nothing changed: keep the file byte-identical
     out = {'note': 'Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the '
                    'reviewed SHA-256. Rebuild with --build-list after mod updates.',
-           'generated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-           'jars': entries}
-    with open(a.list, 'w', encoding='utf-8') as f:
+           'generated': gen,
+           'jars': final}
+    dest = a.out or a.list
+    with open(dest, 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
         f.write('\n')
-    print(f'Wrote {len(entries)} jars to {a.list}. Left out ({len(skipped)}):')
+    print(f'Wrote {len(final)} jars to {dest}. Left out ({len(skipped)}):')
     for s in skipped:
         print('   ', *s)
+    for o in dropped:
+        print(f'Removed from list (no longer found/enabled): {o["workshop_id"]} {o["item"]} {o["jar"]}')
+    det = workshop_details(sorted({e['workshop_id'] for _k, e, _o in pending})) if pending else {}
+    rows = []
+    for kind, e, o in pending:
+        rows.append((e['workshop_id'], e['item'], e['jar'], o['sha256'][:12] if o else '(not on list)',
+                     e['sha256'][:12], _ts(det.get(e['workshop_id'], {}).get('time_updated')), kind))
+    if rows:
+        print(f'PENDING third-party jar changes NOT applied ({len(rows)}); review, then rerun with '
+              f'--refresh-third-party:')
+        for r in rows:
+            print(f'  PENDING {r[0]} {r[1][:50]} | {r[2].rsplit("/", 1)[-1]} | {r[3]} -> {r[4]} '
+                  f'| Workshop updated {r[5]} | {r[6]}')
+    elif a.refresh_third_party:
+        print('PENDING: none (third-party jars refreshed with --refresh-third-party).')
+    else:
+        print('PENDING: none (no third-party jar changes).')
+    if a.pending_out:
+        now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%SZ')
+        lines = ['# ZombieBuddy allow list: pending third-party jar changes', '',
+                 f'Last build: {now}' + (' (--refresh-third-party: all applied)' if a.refresh_third_party else ''),
+                 '',
+                 'Third-party jars whose hash changed (or that are new) are NOT re-pinned automatically. The list '
+                 "keeps the old hash, so players get ZombieBuddy's own approval window for the updated jar. "
+                 'Review each one, then rebuild with `--refresh-third-party` '
+                 '(ship_mods.sh: `REFRESH_THIRD_PARTY=1`).', '']
+        if rows:
+            lines += ['| Workshop id | Item | Jar | Old hash | New hash | Workshop updated (UTC) | Kind |',
+                      '|---|---|---|---|---|---|---|']
+            lines += ['| ' + ' | '.join(str(c).replace('|', '/') for c in r) + ' |' for r in rows]
+        else:
+            lines.append('None pending.')
+        with open(a.pending_out, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(lines) + '\n')
+        print(f'Pending report: {a.pending_out}')
 
 
 def main():
@@ -183,6 +255,12 @@ def main():
     ap.add_argument('--server-mods', help='with --build-list: the Mods= value (or a file holding it)')
     ap.add_argument('--ids', default=os.path.join(HERE, 'oz_server_mod_ids.json'),
                     help='with --build-list: Workshop ids of the server mod list')
+    ap.add_argument('--oz-ids', help='with --build-list: our own Workshop ids (comma list); only these '
+                                     're-pin automatically')
+    ap.add_argument('--refresh-third-party', action='store_true',
+                    help='with --build-list: also apply third-party jar hash changes (after review)')
+    ap.add_argument('--pending-out', help='with --build-list: write the pending third-party report (Markdown)')
+    ap.add_argument('--out', help='with --build-list: write the list here instead of over --list')
     a = ap.parse_args()
 
     libs = steam_libraries(a.steam_dir)
