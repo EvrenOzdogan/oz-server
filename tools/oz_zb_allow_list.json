@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-15T07:14:58Z",
+ "generated": "2026-10-15T10:20:33Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -191,7 +191,7 @@
    "item": "Project Viewpoint: Recoil & ADS",
    "mod_id": "ProjectViewpointADS",
    "jar": "mods/ProjectViewpointADS/42/media/java/client/ProjectViewpointADS.jar",
-   "sha256": "d069af05669f004339680d960c58b77f2647ade1f250c7cf357fba867753dc79",
+   "sha256": "56c802cd04ffc6b9388aa2c550f2dbde555997949cfedfd0bedf872fa44bb84e",
    "signed": false
   },
   {
@@ -223,7 +223,7 @@
    "item": "Shoot to Thrill (formerly I SEE THEM)",
    "mod_id": "ShootToThrillMultiplayer",
    "jar": "mods/ShootToThrillMultiplayer/42/media/java/client/ISeeThem.jar",
-   "sha256": "aa90ae959b161dd83549ac9fe31890d6ab94250c15e51692811f3537402c0eae",
+   "sha256": "f429b5d86691b37014148d18599e4aa636d73460d6eef2bd2203ac29c7bc007e",
    "signed": false
   },
   {
@@ -343,7 +343,7 @@
    "item": "Viewpoint True Ballistics",
    "mod_id": "ViewpointTrueBallistics",
    "jar": "mods/ViewpointTrueBallistics/42/media/java/ViewpointTrueBallistics.jar",
-   "sha256": "725d776a4fa1b962e23b7ef0c77d2a16221aad8f5f84cca4d4421f33b6482d1f",
+   "sha256": "aaee2b68fd04aa516a388880cf000ef6e0775a5bdf30355a8d937048a16fea40",
    "signed": false
   },
   {
