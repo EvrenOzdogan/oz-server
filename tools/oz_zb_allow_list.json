@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-16T04:12:06Z",
+ "generated": "2026-10-16T04:34:35Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -55,7 +55,7 @@
    "item": "Oz Division Shaders",
    "mod_id": "OzDivision",
    "jar": "mods/OzDivision/42/media/java/client/OzDivision.jar",
-   "sha256": "9c6803feb00d4a1572e1156c127dcbc60ccc3ea211c176798031e6e4097d633a",
+   "sha256": "3495f26934cd9271aacb0ec27af44c9c8841bfc6d537213fd1de24aad306a46d",
    "signed": false
   },
   {
