@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-16T04:11:40Z",
+ "generated": "2026-10-16T04:12:06Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -239,7 +239,7 @@
    "item": "Viewpoint - Smooth Frames",
    "mod_id": "ViewpointSmoothFrames",
    "jar": "mods/ViewpointSmoothFrames/42/media/java/client/SmoothFrames.jar",
-   "sha256": "1e2a541b050debb417919ca695ef941d83cb5b132598b4ee311a25fecc816b7f",
+   "sha256": "7f77ae15693e400d60da8e3e0e1082f92129fa5bf404beb3fa01a3ad17fce84a",
    "signed": false
   },
   {
