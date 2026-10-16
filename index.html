@@ -56,14 +56,14 @@ footer{padding:30px 0 50px;color:#7c8594;font-size:14px;border-top:1px solid #1d
 <section class="wrap"><h2>What makes it different</h2><div class="grid">
 <div class="card"><h3>First person</h3><p>Project Viewpoint: DayZ-style aiming and recoil, true ballistics, lean, prone and vault. HD floors, walls, cars, weapons and clothing, 3D trees, fences and props. Switch to third person or the classic top-down view any time (O).</p></div>
 <div class="card"><h3>A real city</h3><p>Midtown Manhattan from OpenStreetMap data: the street grid, avenues and parks, a varied skyline topped by the 15-floor Empire State Building, working elevators, farmland and towns around it.</p></div>
-<div class="card"><h3>Deep survival</h3><p>About 174 curated mods: overhauled weather and lighting, immersive effects, vehicles, rafts and swimming, loot and crafting depth.</p></div>
+<div class="card"><h3>Deep survival</h3><p>About 173 curated mods: overhauled weather and lighting, immersive effects, vehicles, rafts and swimming, loot and crafting depth.</p></div>
 <div class="card"><h3>PvP with rules</h3><p>Safety toggle, factions, protected safehouses. 20 waystone beacons (with a teleport sound) mark PvP hot zones with supply drops.</p></div>
 <div class="card"><h3>Quality of life</h3><p><code>/sethome</code> and <code>/home</code>, fast travel between waystones you have found, 37 named spawn districts and towns, in-game rules panel and <code>/help</code>.</p></div>
-<div class="card"><h3>Fresh world</h3><p>New world started Oct 15 (v4); the old world is archived. Build 42.21, 24/7 hosting, backups every 6 hours, active admin, Discord support.</p></div>
+<div class="card"><h3>Fresh world</h3><p>New world started Oct 16 (map 2.5.2); the old world is archived. Build 42.21, 24/7 hosting, backups every 6 hours, active admin, Discord support.</p></div>
 </div></section>
 
 <section class="wrap" id="setup"><h2>Oz Modpack 1.0: easiest setup</h2>
-<p style="color:var(--muted);margin:0 0 12px">Subscribe to the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155">collection</a> (Subscribe to all), then paste the matching prompt into Claude: the first for Claude Code, the second for the Claude desktop app (needs computer use enabled). It checks your PC, waits for the downloads, adds the server and explains the first join. Oz Modpack 1.0 is 174 mods: Waystones 0.4.1, Server Pack 0.5.29, Fast Boot 1.4.20, Street 3D 1.1.5, HD City Tiles 1.1.5, Server Tweaks 1.2.16, NYC Facades 1.3.3, Division Shaders 0.1.3 (required) and OzNYC World 2.4.1; Unbound Shaders is optional.</p>
+<p style="color:var(--muted);margin:0 0 12px">Subscribe to the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155">collection</a> (Subscribe to all), then paste the matching prompt into Claude: the first for Claude Code, the second for the Claude desktop app (needs computer use enabled). It checks your PC, waits for the downloads, adds the server and explains the first join. Oz Modpack 1.0 is 173 mods: Waystones 0.4.3, Server Pack 0.5.37, Fast Boot 1.4.22, Street 3D 1.1.8, HD City Tiles 1.1.7, Server Tweaks 1.2.20, NYC Facades 1.4.0 (the map needs 1.4.0 or later), Division Shaders 0.1.4 (required) and OzNYC World 2.5.2; Unbound Shaders is optional.</p>
 <h3 style="margin:16px 0 8px">Claude Code (terminal)</h3><button id="cpy" class="btn" style="border:0;cursor:pointer;font:inherit;font-weight:700;margin-bottom:10px" onclick="var t=document.getElementById('pr');navigator.clipboard.writeText(t.value).then(function(){document.getElementById('cpy').textContent='Copied'},function(){t.select();document.execCommand('copy');document.getElementById('cpy').textContent='Copied'})">Copy the Claude Code prompt</button>
 <textarea id="pr" readonly rows="14" style="width:100%;background:#0a0c10;color:#ffd48a;border:1px solid #2a3140;border-radius:8px;padding:12px;font:13px/1.45 Consolas,monospace">You are setting up my Windows PC to play on the Oz Server (Project Zomboid Build 42, first-person New York). Be imperative with me, do one step at a time, never change settings I did not ask for, never run installers silently, and never ask me to paste passwords into chat. The join PIN is shown on the game's main menu; ask me for it only when a step needs it and do not repeat it back.
 FACTS: server 208.75.182.159 port 28090 (name "Oz Server"). Modpack collection https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155 (164 items, ~9 GB, "Oz Modpack 1.0"). Required game: Project Zomboid Build 42.21. Discord: https://discord.gg/v6JMDRYfX8
@@ -74,7 +74,7 @@ FACTS: server 208.75.182.159 port 28090 (name "Oz Server"). Modpack collection h
 5. SERVER LIST: with the game closed, back up %USERPROFILE%\Zomboid\db\ServerListSteam.db (if missing, have me start the game to the main menu once and quit), then add one row: name Oz Server, ip 208.75.182.159, port 28090, no duplicates. Leave the password empty; I type the PIN in game.
 6. THEN TELL ME, and stop so I can play:
  - Multiplayer &gt; Oz Server &gt; pick a username/password &gt; Join. If a Server Workshop Items list appears, press Install and wait.
- - First join takes about 3 minutes (174 mods) with one loading screen and no Click to Start step. Later joins are faster.
+ - First join takes about 3 minutes (173 mods) with one loading screen and no Click to Start step. Later joins are faster.
  - ZombieBuddy shows a Java Mod Approval window: tick Allow only on rows from Oz mods, Project Viewpoint and True Weathers; leave anything unfamiliar unticked; tick "Save decisions", OK.
  - Keys: O = aerial/classic camera, Shift+O = first person, Delete = quick graphics menu. If the world looks flat or washed out, press Delete and toggle any one True Weathers option off and on once.
  - Oz Server Tweaks applies recommended settings once (texture compression on, show username, hide the ZombieBuddy watermark) and shows a notice. Restart the game once after the first join. The Gunworks weapon loader key (O) is unbound by Oz Server Tweaks.
@@ -90,7 +90,7 @@ FACTS: server 208.75.182.159 port 28090 (name "Oz Server"). Modpack collection h
 5. SERVER LIST: no file editing. Have me start Project Zomboid to the main menu, then click Multiplayer &gt; Add Server (the game's own screen): Name Oz Server, IP 208.75.182.159, Port 28090, leave the password empty, Save. Do not create duplicates. I type the PIN in game only.
 6. THEN TELL ME, and stop so I can play:
  - Multiplayer &gt; Oz Server &gt; pick a username/password &gt; Join. If a Server Workshop Items list appears, press Install and wait.
- - First join takes about 3 minutes (174 mods) with one loading screen and no Click to Start step. Later joins are faster.
+ - First join takes about 3 minutes (173 mods) with one loading screen and no Click to Start step. Later joins are faster.
  - ZombieBuddy shows a Java Mod Approval window: tick Allow only on rows from Oz mods, Project Viewpoint and True Weathers; leave anything unfamiliar unticked; tick "Save decisions", OK.
  - Keys: O = aerial/classic camera, Shift+O = first person, Delete = quick graphics menu. If the world looks flat or washed out, press Delete and toggle any one True Weathers option off and on once.
  - Oz Server Tweaks applies recommended settings once (texture compression on, show username, hide the ZombieBuddy watermark) and shows a notice. Restart the game once after the first join. The Gunworks weapon loader key (O) is unbound by Oz Server Tweaks.
@@ -98,8 +98,20 @@ FACTS: server 208.75.182.159 port 28090 (name "Oz Server"). Modpack collection h
 8. HELP: Discord https://discord.gg/v6JMDRYfX8 (#help-install); bring Zomboid\console.txt (in my user folder, Zomboid).</textarea>
 </section>
 
+<section class="wrap" id="newmap"><h2>What changed: OzNYC World 2.5.2</h2>
+<p>The map is bigger in every direction and the world is fresh (Oct 16). Needs Oz NYC Facades 1.4.0 or later (it now carries the Oz Structures tiles); Oz Street 3D 1.1.8 carries their 3D models.</p>
+<ul>
+<li><b>Bridges:</b> elevated highway bridges (George Washington, Harlem, Queensboro, Williamsburg) with ramps and boats underneath. The decks start jammed with wreck scenes; clear them by towing.</li>
+<li><b>Waterfront:</b> a Manhattan seawall promenade, a Brooklyn harbor with piers, slips, a breakwater, a boat ramp and a container yard, and a Bronx airfield.</li>
+<li><b>Landmarks:</b> Blender-built GWB towers, harbor cranes, hangars, a terminal and tower, skyline crowns and a stadium. Floating roof props are fixed, rooftops have detail and empty blocks are filled.</li>
+<li><b>Loot:</b> 101 loot buildings in Midtown and every town: gun stores, police stations, banks, a hospital, pharmacies, fire stations, gas stations and warehouses.</li>
+<li><b>Parks and suburbs:</b> Central Park, pocket parks and plazas, and suburbs that no longer look like boxes. In-game map features cover all of it, and spawn points walk you out onto the street.</li>
+<li><b>Server Pack 0.5.37:</b> 20 runtime set-piece types in open ground, WreckField 2.0 mega pile-ups and two-car crash scenes, the welcome after the city loads, first person on join.</li>
+<li><b>Also:</b> Fast Boot 1.4.22 (one-screen join, Oz Division selected in the world on high-end PCs), Waystones 0.4.3 (two-storey beacon platforms with stairs on all four sides), Tweaks 1.2.20, Division 0.1.4, HD City Tiles 1.1.7 with Blender-baked textures. 173 mods in total.</li>
+</ul></section>
+
 <section class="wrap" id="changes"><h2>What changed in Oz Modpack 1.0</h2>
-<p>The server is lighter and joins faster: 195 mods down to 174. Duplicates and heavy extras were removed; everything else stays.</p>
+<p>The server is lighter and joins faster: 195 mods down to 173. Duplicates and heavy extras were removed; everything else stays.</p>
 <ul>
 <li><b>Added:</b> Oz Division Shaders, the default look on high-end PCs, required, loaded right after Viewpoint.</li>
 <li><b>Removed, another mod already does the job:</b> Source Movement and Parkour (Advanced Movement covers jumping, vaulting and climbing), Camera Tweaks (the Classic camera option covers it), Open Ammo While Walking (Use Items While Walking covers it), two duplicate Neat Building add-ons.</li>
@@ -116,7 +128,7 @@ FACTS: server 208.75.182.159 port 28090 (name "Oz Server"). Modpack collection h
 <li><b>Subscribe to the collection</b> with one click ("Subscribe to all"): <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155">Oz Server Modpack</a>. Let Steam finish downloading (about 9 GB, best done the day before).</li>
 <li><b>Install ZombieBuddy</b> once (the Java loader Project Viewpoint needs, not on the Workshop): <a href="https://github.com/zed-0xff/ZombieBuddy/releases">ZombieBuddyInstaller.exe</a>, choose <b>Both</b>. On first launch approve the Java mods.</li>
 <li><b>Join:</b> Project Zomboid → Multiplayer → Add Server <code>208.75.182.159</code> port <code>28090</code>. The join PIN is shown on the game's main menu. Pick a username and password for your account and press Connect. If a "Server Workshop Items" list appears, press <b>Install</b> and wait (the HD texture packs are about 1 GB). When ZombieBuddy shows its <b>Java Mod Approval</b> window, tick <b>Allow</b> on the rows that belong to the Oz Server's Workshop mods (<a href="tools/oz_zb_allow_list.json">the list</a>; Java mods run with full rights on your PC, so leave anything you do not recognise unticked), tick "Save decisions" and press OK.</li>
-<li><b>Spawn:</b> choose a Midtown district or a town on the map, make your character, play. The first load takes 2-3 minutes (174 mods); later ones are faster.</li>
+<li><b>Spawn:</b> choose a Midtown district or a town on the map, make your character, play. The first load takes 2-3 minutes (173 mods); later ones are faster.</li>
 <li><b>Optional, same PC class as ours (RTX 4070/5070, 32 GB):</b> download <a href="oz-viewpoint-settings.properties">oz-viewpoint-settings.properties</a>, rename it to <code>viewpoint-live.properties</code> and drop it into your <code>Zomboid</code> folder with the game closed. That applies our whole Viewpoint graphics setup (DLSS Quality, frame generation off, low latency on, sky on max).</li>
 <li><b>Optional, performance setup (Windows):</b> the modded city needs a bigger Java heap and a few Windows GPU settings. Download <a href="tools/oz_pc_tune.py">oz_pc_tune.py</a> (and <a href="tools/oz_pz_profile.nip">oz_pz_profile.nip</a> for NVIDIA cards), close the game, run <code>python oz_pc_tune.py --dry-run</code> and read the table of current vs recommended values. To apply, run <code>python oz_pc_tune.py</code> (as Administrator to include GPU scheduling) and type <code>YES</code> yourself; it backs up every file it changes and <code>python oz_pc_tune.py --undo</code> restores them. <br>By hand: in <code>Steam\steamapps\common\ProjectZomboid\ProjectZomboid64.json</code> set <code>-Xmx</code> to <code>12g</code> (32 GB RAM), <code>10g</code> (24 GB) or <code>8g</code> (16 GB; expect stutter, 16 GB PCs will struggle); do not go below 11g on 32 GB because the modded server peaks near 10.5 GB of heap. Windows Settings &gt; System &gt; Display &gt; Graphics: turn on <b>Hardware-accelerated GPU scheduling</b> (reboot) and add ProjectZomboid64.exe with <b>High performance</b>. NVIDIA: with NVIDIA Profile Inspector run <code>nvidiaProfileInspector.exe -silentImport oz_pz_profile.nip</code> (max performance power mode, threaded optimization on). Steam "Verify integrity of game files" resets the json, so redo the heap after it.</li>
 </ol>
@@ -127,7 +139,7 @@ FACTS: server 208.75.182.159 port 28090 (name "Oz Server"). Modpack collection h
 <b>Address</b><span><code>208.75.182.159:28090</code></span>
 <b>Version</b><span>Project Zomboid Build 42.21</span>
 <b>Mode</b><span>PvP with safety system · factions · protected safehouses</span>
-<b>Map</b><span>OzNYC World 2.4.1 (Midtown, Hudson Valley, Knox County towns) · Distanciado</span>
+<b>Map</b><span>OzNYC World 2.5.2 (Midtown, Hudson Valley, Knox County towns) · Distanciado</span>
 <b>Modpack</b><span><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819427155">Steam collection</a></span>
 <b>Discord</b><span><a href="https://discord.gg/v6JMDRYfX8">discord.gg/v6JMDRYfX8</a></span>
 <b>Hosting</b><span><a href="https://indifferentbroccoli.com/servers/projectzomboid/6a7fc1d38017987478ffd800">Indifferent Broccoli server page</a></span>
