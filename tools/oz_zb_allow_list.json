@@ -1,15 +1,7 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-16T03:03:16Z",
+ "generated": "2026-10-16T03:03:51Z",
  "jars": [
-  {
-   "workshop_id": "3811472160",
-   "item": "3d Blood VFX for Viewpoint (experimental)",
-   "mod_id": "ViewpointBloodFX",
-   "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
-   "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
-   "signed": false
-  },
   {
    "workshop_id": "3815033191",
    "item": "Barricade Fix - Project Viewpoint",
@@ -19,35 +11,11 @@
    "signed": true
   },
   {
-   "workshop_id": "3813801053",
-   "item": "Blood FX for Viewpoint - Fixes",
-   "mod_id": "ViewpointBloodFXAddon",
-   "jar": "mods/ViewpointBloodFXAddon/42/media/java/client/BloodFXAddon.jar",
-   "sha256": "d1d298c1f75c9ac6edb6ef582b431ed97fe4eed91b3124e8ca7d368d6973016c",
-   "signed": false
-  },
-  {
-   "workshop_id": "3814742214",
-   "item": "Camera Tweaks for Viewpoint",
-   "mod_id": "CameraTweaksViewpoint",
-   "jar": "mods/CameraTweaksViewpoint/42/media/java/client/ViewPointFixes.jar",
-   "sha256": "81e2f3c74456fc317d87ba20cd2fa8c8cf83ddf145c6feb6364727d7e120769a",
-   "signed": false
-  },
-  {
    "workshop_id": "3818656834",
    "item": "Deadwood Shaders - Cinematic Shaders for Viewpoint",
    "mod_id": "DeadwoodShaders",
    "jar": "mods/Deadwood-Shaders/42/media/java/client/DeadwoodShaders.jar",
    "sha256": "5f63bb8cd58fa9bbac8bcd4fe8ba2d885033dd5521a36af8807c56c7e792e2cc",
-   "signed": false
-  },
-  {
-   "workshop_id": "3816588758",
-   "item": "Death Cam Mod for Project Viewpoint",
-   "mod_id": "ViewpointDeathCam",
-   "jar": "mods/ViewpointDeathCam/42/media/java/client/ViewpointDeathCam.jar",
-   "sha256": "0e30cd4a5f056462dc7ba013a1f1d9be9b990fca7b06e2c41b7e0d45c9d9da20",
    "signed": false
   },
   {
@@ -163,14 +131,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3811645644",
-   "item": "Project Viewpoint Parkour",
-   "mod_id": "ProjectViewpointParkour",
-   "jar": "mods/ProjectViewpointParkour/42/media/java/ProjectViewpointParkour.jar",
-   "sha256": "1e0ab884d86eea5fc225f567b449efb0cd36b1f6260e887170a51360c0800734",
-   "signed": false
-  },
-  {
    "workshop_id": "3811256204",
    "item": "Project Viewpoint QOL",
    "mod_id": "ProjectViewpointQOL",
@@ -235,14 +195,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3811141563",
-   "item": "Source Movement for Viewpoint (Bhop)",
-   "mod_id": "ViewpointSourceMovement",
-   "jar": "mods/ViewpointSourceMovement/42/media/java/SourceMovement.jar",
-   "sha256": "3d93798f5f6bd6bba001001104f57988126bdfc59f626433b42af1d9b9b25ebf",
-   "signed": false
-  },
-  {
    "workshop_id": "3814398576",
    "item": "Surface Fix - Project Viewpoint",
    "mod_id": "ViewpointSurface",
@@ -304,14 +256,6 @@
    "mod_id": "ViewpointBetterWindow",
    "jar": "mods/ViewpointBetterWindow/42/media/java/client/ViewpointBetterWindow.jar",
    "sha256": "42f9aecafbb34a4bc76c6a8130720608fed79de9f78f179ef1fca9d4d635d6b1",
-   "signed": false
-  },
-  {
-   "workshop_id": "3818585720",
-   "item": "Viewpoint Binoculars",
-   "mod_id": "ViewpointBinoculars",
-   "jar": "mods/ViewpointBinoculars/42/media/java/client/ViewpointBinoculars.jar",
-   "sha256": "c66dfedd1af04998e83a6e82b71af12d69f50fde20bfd7ce1f3f6150a2f6d77a",
    "signed": false
   },
   {
