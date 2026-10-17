@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-17T20:43:06Z",
+ "generated": "2026-10-17T23:55:09Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -103,7 +103,7 @@
    "item": "Project Viewpoint - Immersive Driving",
    "mod_id": "ImmersiveDriving",
    "jar": "mods/ImmersiveDriving/42/media/java/client/ImmersiveDriving.jar",
-   "sha256": "eabdf1497dc986f220d99b058ad65938e0a898c1357a0ba19f1d46f0dafcb1a1",
+   "sha256": "98f342ffe2e083597055cafe51c19b19cb282763476e2db8a65b1d1e843a1647",
    "signed": false
   },
   {
