@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-16T21:58:28Z",
+ "generated": "2026-10-17T04:14:14Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -95,7 +95,7 @@
    "item": "Project Viewpoint - Immersive Driving",
    "mod_id": "ImmersiveDriving",
    "jar": "mods/ImmersiveDriving/42/media/java/client/ImmersiveDriving.jar",
-   "sha256": "6d0005c208090592b7c5f3c852b2b118a107a4011d93afd546577f90d7276cab",
+   "sha256": "eabdf1497dc986f220d99b058ad65938e0a898c1357a0ba19f1d46f0dafcb1a1",
    "signed": false
   },
   {
@@ -167,7 +167,7 @@
    "item": "Project Viewpoint: True Weathers & Lighting",
    "mod_id": "ViewpointTrueWeathers",
    "jar": "mods/ViewpointTrueWeathers/42/media/java/client/ViewpointTrueWeathers.jar",
-   "sha256": "25ea43cf9415f51d51a5b9dbdad0c66d1a61cec70ad64cb8196d34ceabdb09cd",
+   "sha256": "3cd9f4acc0d609f231e09324cdeb5d16506409d4eccaea1e6ca73c874758e6d0",
    "signed": false
   },
   {
@@ -175,7 +175,7 @@
    "item": "Project Viewpoint: True Weathers & Lighting",
    "mod_id": "ViewpointTrueWeathersGameplay",
    "jar": "mods/ViewpointTrueWeathersGameplay/42/media/java/TrueWeathersGameplay.jar",
-   "sha256": "06bae55dea90bd324f6913d8f7f62a4ae2f722ed382e4c5dcb24f0dbd35aaabe",
+   "sha256": "aecf9d822ec35ccc469497ad634d9b20256a3cde2ab923d7fe0bce10d8927744",
    "signed": false
   },
   {
@@ -191,7 +191,7 @@
    "item": "Shoot to Thrill (formerly I SEE THEM)",
    "mod_id": "ShootToThrillMultiplayer",
    "jar": "mods/ShootToThrillMultiplayer/42/media/java/client/ISeeThem.jar",
-   "sha256": "f429b5d86691b37014148d18599e4aa636d73460d6eef2bd2203ac29c7bc007e",
+   "sha256": "0f6282f86b05730ebbf227e881a9380b816db56de29e169bbb6e274389ca19c3",
    "signed": false
   },
   {
@@ -247,7 +247,7 @@
    "item": "Viewpoint Advanced Movement",
    "mod_id": "ViewpointAdvancedMovement",
    "jar": "mods/ViewpointAdvancedMovement/42/media/java/client/ViewpointAdvancedMovement.jar",
-   "sha256": "51b5d241ea7da5b6e88b8786711bc626114b0636fdf033fc81e8d77d7aea56e9",
+   "sha256": "a7a704ab5b2220e8cabecc518adb6034b3cba3dcba04163e886034ba176e44b0",
    "signed": false
   },
   {
@@ -271,7 +271,7 @@
    "item": "Viewpoint Fishing",
    "mod_id": "FishingView",
    "jar": "mods/FishingView/42/media/java/client/FishingView.jar",
-   "sha256": "69b1a7daf135fef9745f71d80b2eb47492096a669f18b4a500538222b7a7c416",
+   "sha256": "72352370b5b20eee4b37a061c115ecd84574662cfb5f4634ec5ce347508b0d10",
    "signed": false
   },
   {
