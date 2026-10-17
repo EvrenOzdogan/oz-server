@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-17T06:33:01Z",
+ "generated": "2026-10-17T13:18:36Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -71,7 +71,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "a559d49fd47f653a51a7d19ef639f6d576d1647df4b3515931dc2b826a2d3d74",
+   "sha256": "c0f3eaa3179c02fd1c38aa8d79699d6539ad449de8caff1d064d1dc90f9f8245",
    "signed": false
   },
   {
@@ -116,7 +116,7 @@
   },
   {
    "workshop_id": "3813889000",
-   "item": "Project Viewpoint / PZ3D Marking Beams (Day & Night · Distance Labels) [B42.21.0] [SP/MP]",
+   "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42.21.0] [SP/MP]",
    "mod_id": "aparosa_pz3dBeams",
    "jar": "mods/pz3dBeams/42/media/java/pz3dBeams.jar",
    "sha256": "0fe99f60bd86f72f76de11bee43079ec7481c1579fe976bbdb89233d64441bff",
@@ -124,7 +124,7 @@
   },
   {
    "workshop_id": "3810179295",
-   "item": "Project Viewpoint / PZ3D Minimap [B42.21.0] [SP/MP]",
+   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42.21.0] [SP/MP]",
    "mod_id": "aparosa_pz3dMinimap",
    "jar": "mods/pz3dMinimap/42/media/java/pz3dMinimap.jar",
    "sha256": "f975e0ae5876d42837ef3ecc63efa182d4f636c5a188be32f24fb0c25a7eb233",
