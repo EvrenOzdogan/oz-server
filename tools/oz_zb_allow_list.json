@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-17T13:18:36Z",
+ "generated": "2026-10-17T13:56:57Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -191,7 +191,7 @@
    "item": "Shoot to Thrill (formerly I SEE THEM)",
    "mod_id": "ShootToThrillMultiplayer",
    "jar": "mods/ShootToThrillMultiplayer/42/media/java/client/ISeeThem.jar",
-   "sha256": "23affec972e7e8af43acbc20e76ecd630a1b4b052352975c3ed5ede90666ffd9",
+   "sha256": "f1a5ed87c1916e0129035823674625767ae499da84c33099cde28d1261f6bda6",
    "signed": false
   },
   {
