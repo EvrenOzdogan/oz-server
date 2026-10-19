@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-19T12:13:41Z",
+ "generated": "2026-10-19T21:43:12Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -248,14 +248,6 @@
    "mod_id": "ViewpointAdvancedMovement",
    "jar": "mods/ViewpointAdvancedMovement/42/media/java/client/ViewpointAdvancedMovement.jar",
    "sha256": "a7a704ab5b2220e8cabecc518adb6034b3cba3dcba04163e886034ba176e44b0",
-   "signed": false
-  },
-  {
-   "workshop_id": "3814787969",
-   "item": "Viewpoint Better Window",
-   "mod_id": "ViewpointBetterWindow",
-   "jar": "mods/ViewpointBetterWindow/42/media/java/client/ViewpointBetterWindow.jar",
-   "sha256": "42f9aecafbb34a4bc76c6a8130720608fed79de9f78f179ef1fca9d4d635d6b1",
    "signed": false
   },
   {
