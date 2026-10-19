@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-19T05:12:26Z",
+ "generated": "2026-10-19T12:13:41Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -111,7 +111,7 @@
    "item": "Project Viewpoint - Visible Helicopter Events",
    "mod_id": "VisibleHelicopterEvent",
    "jar": "mods/VisibleHelicopterEvent/42/media/java/client/VisibleHelicopterEvent.jar",
-   "sha256": "74a6972c5cdc69b33ed94cccc542213a658730543ec32ea660d5600e368bff94",
+   "sha256": "0a8ab01f9c5e2ffe30539b66a51985e3db5540e345eee52cad152b457a8f68f3",
    "signed": false
   },
   {
@@ -191,7 +191,7 @@
    "item": "Shoot to Thrill (formerly I SEE THEM)",
    "mod_id": "ShootToThrillMultiplayer",
    "jar": "mods/ShootToThrillMultiplayer/42/media/java/client/ISeeThem.jar",
-   "sha256": "f1a5ed87c1916e0129035823674625767ae499da84c33099cde28d1261f6bda6",
+   "sha256": "e1536809c5ad109f7e4855ee0b613bc6708e056e79c082b3240a7fa854338083",
    "signed": false
   },
   {
