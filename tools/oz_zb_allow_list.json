@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-20T05:03:09Z",
+ "generated": "2026-10-20T22:35:51Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -183,7 +183,7 @@
    "item": "Project Viewpoint: KK's TREE in 3D （Animated & Seasonal）",
    "mod_id": "ProjectViewpointNearVegetation",
    "jar": "mods/ProjectViewpointNearVegetation/42/media/java/client/ProjectViewpointNearVegetation.jar",
-   "sha256": "9ef8b14d0a507812b2d3fa24e7aa816f5e822770d1e5f93e97c0123e0dba7ba2",
+   "sha256": "bf931580d8ba82b998b3b53476043dd9db8ecd58341895fda5f91ac55d76b903",
    "signed": false
   },
   {
@@ -359,7 +359,7 @@
    "item": "Wall Texture Fix for Viewpoint",
    "mod_id": "WallTextureFixForViewpoint",
    "jar": "mods/WallTextureFixForViewpoint/42/media/java/client/WallTextureFixForViewpoint.jar",
-   "sha256": "3f6863aa96edbd51e2ed668faa8e78e3114fa4fe504a4249bb79960a0663536e",
+   "sha256": "08e4532d157625757b97d5315772a0721d8bb02b5b6e58fc307e008d202c4703",
    "signed": false
   },
   {
