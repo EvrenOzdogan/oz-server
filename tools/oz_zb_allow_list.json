@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-19T21:43:12Z",
+ "generated": "2026-10-20T02:06:36Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -111,7 +111,7 @@
    "item": "Project Viewpoint - Visible Helicopter Events",
    "mod_id": "VisibleHelicopterEvent",
    "jar": "mods/VisibleHelicopterEvent/42/media/java/client/VisibleHelicopterEvent.jar",
-   "sha256": "0a8ab01f9c5e2ffe30539b66a51985e3db5540e345eee52cad152b457a8f68f3",
+   "sha256": "946b16c708f64b1ed2b6f0682a0474a42ac5bf70819b9938c691d2d3212965fd",
    "signed": false
   },
   {
