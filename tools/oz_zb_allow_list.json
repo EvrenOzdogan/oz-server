@@ -1,22 +1,14 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-20T02:07:39Z",
+ "generated": "2026-10-20T04:09:22Z",
  "jars": [
   {
    "workshop_id": "3811472160",
-   "item": "3d Blood VFX for Viewpoint (experimental)",
+   "item": "Blood FX for Viewpoint",
    "mod_id": "ViewpointBloodFX",
    "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
    "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
    "signed": false
-  },
-  {
-   "workshop_id": "3815033191",
-   "item": "Barricade Fix - Project Viewpoint",
-   "mod_id": "ViewpointBarricade",
-   "jar": "mods/ViewpointBarricade/42/media/java/client/ViewpointBarricades.jar",
-   "sha256": "cbe10c19938bee69e93da02bb4058da433f7180d41d2f9f375d185e9d177dab0",
-   "signed": true
   },
   {
    "workshop_id": "3813801053",
@@ -27,20 +19,12 @@
    "signed": false
   },
   {
-   "workshop_id": "3812151347",
-   "item": "Door Fix - Project Viewpoint",
-   "mod_id": "ViewpointDoor",
-   "jar": "mods/ViewpointDoor/42/media/java/client/ViewpointDoorLighting.jar",
-   "sha256": "6b13cf9f087d9fd4a1ba845001b9cb4e9462e7c7568fe5213e0e2975a964df7f",
-   "signed": true
-  },
-  {
-   "workshop_id": "3812896812",
-   "item": "Helicopter Fix - Project Viewpoint",
-   "mod_id": "ViewpointHeli",
-   "jar": "mods/ViewpointHeli/42/media/java/client/AviationCoreLimitsTerrainTilt.jar",
-   "sha256": "11d90227db497b29517104624ade8579a354d59ec5d76b5da46e43f0442eb401",
-   "signed": true
+   "workshop_id": "3817413313",
+   "item": "Immersive Driving",
+   "mod_id": "ImmersiveDriving",
+   "jar": "mods/ImmersiveDriving/42/media/java/client/ImmersiveDriving.jar",
+   "sha256": "98f342ffe2e083597055cafe51c19b19cb282763476e2db8a65b1d1e843a1647",
+   "signed": false
   },
   {
    "workshop_id": "3816586790",
@@ -51,16 +35,8 @@
    "signed": false
   },
   {
-   "workshop_id": "3811344119",
-   "item": "Light Fix - Project Viewpoint",
-   "mod_id": "ViewpointLight",
-   "jar": "mods/ViewpointLight/42/media/java/client/ViewpointHeadlightPlacement.jar",
-   "sha256": "7d3826027b16186138137ffc8519493c75b025de906083d4e029bbd942dcd770",
-   "signed": true
-  },
-  {
    "workshop_id": "3780788288",
-   "item": "Lucy's Performance Optimization - RV / Chunk Caching",
+   "item": "Lucy's Optimizations - Map Memory",
    "mod_id": "LucysOptMapMemory",
    "jar": "mods/LucysOptMapMemory/42/media/java/LucysOptMapMemory.jar",
    "sha256": "184c380faee19e80958258dc4a96e62371a416195db572c1b5bb3364debe8b32",
@@ -68,15 +44,23 @@
   },
   {
    "workshop_id": "3818108839",
-   "item": "Mutual PvP - both players must opt in",
+   "item": "Mutual PvP (both players must opt in)",
    "mod_id": "MutualPvPConsent",
    "jar": "mods/MutualPvPConsent/42/media/java/MutualPvPConsent.jar",
    "sha256": "254e73195b678191047e3850f0b9a7179545a6e0df1228f3a6cc25d11390092e",
    "signed": false
   },
   {
+   "workshop_id": "3815166404",
+   "item": "Mvdox-Grass-v1",
+   "mod_id": "Mvdox-Grass-v1",
+   "jar": "mods/mvdox-grass-v1/42/media/java/client/MvdoxGrassSeasonal.jar",
+   "sha256": "78b400a3fc87325706124ed203ae876e264df8123fec1e33d6d0cdd8f4b454cb",
+   "signed": false
+  },
+  {
    "workshop_id": "3819476262",
-   "item": "Oz Fast Boot (skip the intro logos)",
+   "item": "Oz Fast Boot",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot$d/media/java/client/OzFastBoot.jar",
    "sha256": "0e6955d47c900dcf52c137c1b6de24360abf189cf454dc3f4b390914de02b4ff",
@@ -84,7 +68,7 @@
   },
   {
    "workshop_id": "3819476262",
-   "item": "Oz Fast Boot (skip the intro logos)",
+   "item": "Oz Fast Boot",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
    "sha256": "7a6be76d706136479d6f5b4ad30052b8f0a4d3b4c91003edae6f0084f00028c2",
@@ -107,22 +91,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3809306528",
-   "item": "Project Viewpoint",
-   "mod_id": "Viewpoint",
-   "jar": "mods/Viewpoint/42/media/java/client/Viewpoint.jar",
-   "sha256": "096bd37d63cb699ac95e9e7ea5245a1b9b5ff08c5161db35f6733b1d1c42b064",
-   "signed": false
-  },
-  {
-   "workshop_id": "3817413313",
-   "item": "Project Viewpoint - Immersive Driving",
-   "mod_id": "ImmersiveDriving",
-   "jar": "mods/ImmersiveDriving/42/media/java/client/ImmersiveDriving.jar",
-   "sha256": "98f342ffe2e083597055cafe51c19b19cb282763476e2db8a65b1d1e843a1647",
-   "signed": false
-  },
-  {
    "workshop_id": "3815019204",
    "item": "Project Viewpoint - KI5 Vehicle Parts Fix",
    "mod_id": "ProjectViewpointKI5VehiclePartsFix",
@@ -140,7 +108,7 @@
   },
   {
    "workshop_id": "3813889000",
-   "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42.21.0] [SP/MP]",
+   "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42]",
    "mod_id": "aparosa_pz3dBeams",
    "jar": "mods/pz3dBeams/42/media/java/pz3dBeams.jar",
    "sha256": "0fe99f60bd86f72f76de11bee43079ec7481c1579fe976bbdb89233d64441bff",
@@ -148,7 +116,7 @@
   },
   {
    "workshop_id": "3810179295",
-   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42.21.0] [SP/MP]",
+   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42]",
    "mod_id": "aparosa_pz3dMinimap",
    "jar": "mods/pz3dMinimap/42/media/java/pz3dMinimap.jar",
    "sha256": "f975e0ae5876d42837ef3ecc63efa182d4f636c5a188be32f24fb0c25a7eb233",
@@ -164,7 +132,7 @@
   },
   {
    "workshop_id": "3813929757",
-   "item": "Project Viewpoint: KK's General Mod Map Fix",
+   "item": "Project Viewpoint: General Mod Map Fix",
    "mod_id": "PV-modmapbakefix",
    "jar": "mods/PV-modmapbakefix/42/media/java/client/PV-modmapbakefix.jar",
    "sha256": "b1ac9475d1d506ca4f5498ca4e158612ee6f63d131d3ffe86986b25c6cd9ebe7",
@@ -179,19 +147,19 @@
    "signed": false
   },
   {
-   "workshop_id": "3813172420",
-   "item": "Project Viewpoint: KK's TREE in 3D （Animated & Seasonal）",
-   "mod_id": "ProjectViewpointNearVegetation",
-   "jar": "mods/ProjectViewpointNearVegetation/42/media/java/client/ProjectViewpointNearVegetation.jar",
-   "sha256": "9ef8b14d0a507812b2d3fa24e7aa816f5e822770d1e5f93e97c0123e0dba7ba2",
-   "signed": false
-  },
-  {
    "workshop_id": "3812612054",
-   "item": "Project Viewpoint: Recoil & ADS",
+   "item": "Project Viewpoint: Recoil & ADS (Viewpoint add-on)",
    "mod_id": "ProjectViewpointADS",
    "jar": "mods/ProjectViewpointADS/42/media/java/client/ProjectViewpointADS.jar",
    "sha256": "56c802cd04ffc6b9388aa2c550f2dbde555997949cfedfd0bedf872fa44bb84e",
+   "signed": false
+  },
+  {
+   "workshop_id": "3813172420",
+   "item": "Project Viewpoint: TREE in 3D",
+   "mod_id": "ProjectViewpointNearVegetation",
+   "jar": "mods/ProjectViewpointNearVegetation/42/media/java/client/ProjectViewpointNearVegetation.jar",
+   "sha256": "9ef8b14d0a507812b2d3fa24e7aa816f5e822770d1e5f93e97c0123e0dba7ba2",
    "signed": false
   },
   {
@@ -204,7 +172,7 @@
   },
   {
    "workshop_id": "3813908957",
-   "item": "Project Viewpoint: True Weathers & Lighting",
+   "item": "Project Viewpoint: True Weathers - Gameplay",
    "mod_id": "ViewpointTrueWeathersGameplay",
    "jar": "mods/ViewpointTrueWeathersGameplay/42/media/java/TrueWeathersGameplay.jar",
    "sha256": "aecf9d822ec35ccc469497ad634d9b20256a3cde2ab923d7fe0bce10d8927744",
@@ -220,19 +188,19 @@
   },
   {
    "workshop_id": "3813032735",
-   "item": "Shoot to Thrill (formerly I SEE THEM)",
+   "item": "Shoot to Thrill - Multiplayer (Restart game after enabling)",
    "mod_id": "ShootToThrillMultiplayer",
    "jar": "mods/ShootToThrillMultiplayer/42/media/java/client/ISeeThem.jar",
    "sha256": "e1536809c5ad109f7e4855ee0b613bc6708e056e79c082b3240a7fa854338083",
    "signed": false
   },
   {
-   "workshop_id": "3814398576",
-   "item": "Surface Fix - Project Viewpoint",
-   "mod_id": "ViewpointSurface",
-   "jar": "mods/ViewpointSurface/42/media/java/client/ViewpointInteriorSurfaces.jar",
-   "sha256": "6827e2cfb215acd388385d6c72b7801ff9dfb9c200aa2a19e171bed02f1000e2",
-   "signed": true
+   "workshop_id": "3809306528",
+   "item": "Viewpoint",
+   "mod_id": "Viewpoint",
+   "jar": "mods/Viewpoint/42/media/java/client/Viewpoint.jar",
+   "sha256": "096bd37d63cb699ac95e9e7ea5245a1b9b5ff08c5161db35f6733b1d1c42b064",
+   "signed": false
   },
   {
    "workshop_id": "3813194971",
@@ -243,12 +211,36 @@
    "signed": false
   },
   {
+   "workshop_id": "3815033191",
+   "item": "Viewpoint - Barricade Fix",
+   "mod_id": "ViewpointBarricade",
+   "jar": "mods/ViewpointBarricade/42/media/java/client/ViewpointBarricades.jar",
+   "sha256": "cbe10c19938bee69e93da02bb4058da433f7180d41d2f9f375d185e9d177dab0",
+   "signed": true
+  },
+  {
    "workshop_id": "3812659173",
-   "item": "Viewpoint - Crop Visibility Fix [B42.21]",
+   "item": "Viewpoint - Crop Visibility Fix",
    "mod_id": "ViewpointCropVisibility",
    "jar": "mods/ViewpointCropVisibility/42/media/java/client/ViewpointCropVisibility.jar",
    "sha256": "fdf9462745b0ce9e6ecffe25b03b98d0553b3b3dd95d23b65f605a6e648aa4ed",
    "signed": false
+  },
+  {
+   "workshop_id": "3812151347",
+   "item": "Viewpoint - Door Fix",
+   "mod_id": "ViewpointDoor",
+   "jar": "mods/ViewpointDoor/42/media/java/client/ViewpointDoorLighting.jar",
+   "sha256": "6b13cf9f087d9fd4a1ba845001b9cb4e9462e7c7568fe5213e0e2975a964df7f",
+   "signed": true
+  },
+  {
+   "workshop_id": "3812896812",
+   "item": "Viewpoint - Helicopter Fix",
+   "mod_id": "ViewpointHeli",
+   "jar": "mods/ViewpointHeli/42/media/java/client/AviationCoreLimitsTerrainTilt.jar",
+   "sha256": "11d90227db497b29517104624ade8579a354d59ec5d76b5da46e43f0442eb401",
+   "signed": true
   },
   {
    "workshop_id": "3812984535",
@@ -267,6 +259,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3811344119",
+   "item": "Viewpoint - Light Fix",
+   "mod_id": "ViewpointLight",
+   "jar": "mods/ViewpointLight/42/media/java/client/ViewpointHeadlightPlacement.jar",
+   "sha256": "7d3826027b16186138137ffc8519493c75b025de906083d4e029bbd942dcd770",
+   "signed": true
+  },
+  {
    "workshop_id": "3819018807",
    "item": "Viewpoint - Right Click Fix",
    "mod_id": "ViewpointRightClick",
@@ -281,6 +281,14 @@
    "jar": "mods/ViewpointSmoothFrames/42/media/java/client/SmoothFrames.jar",
    "sha256": "7f77ae15693e400d60da8e3e0e1082f92129fa5bf404beb3fa01a3ad17fce84a",
    "signed": false
+  },
+  {
+   "workshop_id": "3814398576",
+   "item": "Viewpoint - Surface Fix",
+   "mod_id": "ViewpointSurface",
+   "jar": "mods/ViewpointSurface/42/media/java/client/ViewpointInteriorSurfaces.jar",
+   "sha256": "6827e2cfb215acd388385d6c72b7801ff9dfb9c200aa2a19e171bed02f1000e2",
+   "signed": true
   },
   {
    "workshop_id": "3812702301",
@@ -340,7 +348,7 @@
   },
   {
    "workshop_id": "3812559973",
-   "item": "Viewpoint Turbo - Light Performance Improvement [B42]",
+   "item": "Viewpoint Turbo",
    "mod_id": "ViewpointTurbo",
    "jar": "mods/ViewpointTurbo/42/media/java/client/ViewpointTurbo.jar",
    "sha256": "90c55c23bc898a51d621c7648eaa22235696276554b85daaa4a3aa67b4e7d72b",
@@ -364,18 +372,10 @@
   },
   {
    "workshop_id": "3816856700",
-   "item": "Yeah it's water bitch-(fix-update)",
+   "item": "Yeah it's water bitch",
    "mod_id": "PoolPit",
    "jar": "mods/yeahbitch/42/media/java/client/PoolPitVP.jar",
    "sha256": "8cab7e62bcbce12d5599e36a34f4ac666c2a86ef5a13d0e50d9f6827ee621f4b",
-   "signed": false
-  },
-  {
-   "workshop_id": "3815166404",
-   "item": "|Mvdox Grass \"grass mods for viewpoint\" Unofficial mods|",
-   "mod_id": "Mvdox-Grass-v1",
-   "jar": "mods/mvdox-grass-v1/42/media/java/client/MvdoxGrassSeasonal.jar",
-   "sha256": "78b400a3fc87325706124ed203ae876e264df8123fec1e33d6d0cdd8f4b454cb",
    "signed": false
   }
  ]
