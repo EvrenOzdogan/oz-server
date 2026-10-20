@@ -1,7 +1,15 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-20T02:06:36Z",
+ "generated": "2026-10-20T02:07:39Z",
  "jars": [
+  {
+   "workshop_id": "3811472160",
+   "item": "3d Blood VFX for Viewpoint (experimental)",
+   "mod_id": "ViewpointBloodFX",
+   "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
+   "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
+   "signed": false
+  },
   {
    "workshop_id": "3815033191",
    "item": "Barricade Fix - Project Viewpoint",
@@ -9,6 +17,14 @@
    "jar": "mods/ViewpointBarricade/42/media/java/client/ViewpointBarricades.jar",
    "sha256": "cbe10c19938bee69e93da02bb4058da433f7180d41d2f9f375d185e9d177dab0",
    "signed": true
+  },
+  {
+   "workshop_id": "3813801053",
+   "item": "Blood FX for Viewpoint - Fixes",
+   "mod_id": "ViewpointBloodFXAddon",
+   "jar": "mods/ViewpointBloodFXAddon/42/media/java/client/BloodFXAddon.jar",
+   "sha256": "d1d298c1f75c9ac6edb6ef582b431ed97fe4eed91b3124e8ca7d368d6973016c",
+   "signed": false
   },
   {
    "workshop_id": "3812151347",
@@ -25,6 +41,14 @@
    "jar": "mods/ViewpointHeli/42/media/java/client/AviationCoreLimitsTerrainTilt.jar",
    "sha256": "11d90227db497b29517104624ade8579a354d59ec5d76b5da46e43f0442eb401",
    "signed": true
+  },
+  {
+   "workshop_id": "3816586790",
+   "item": "Immersive Snow - Viewpoint",
+   "mod_id": "ImmersiveSnowViewpoint",
+   "jar": "mods/ImmersiveSnowViewpoint/42/media/java/client/ImmersiveSnowVP.jar",
+   "sha256": "645c319a06cceffc467c2cbf98ead38b486f4208eee86499917b88a98f9e03bf",
+   "signed": false
   },
   {
    "workshop_id": "3811344119",
@@ -147,6 +171,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3815931973",
+   "item": "Project Viewpoint: KK's Shelves in 3D",
+   "mod_id": "ProjectViewpointShelves",
+   "jar": "mods/ProjectViewpointShelves/42/media/java/client/ProjectViewpointShelves.jar",
+   "sha256": "cb111d813c3436b0355c44a65f9d38fb5ebb489a4497f10caaa2027240a116cf",
+   "signed": false
+  },
+  {
    "workshop_id": "3813172420",
    "item": "Project Viewpoint: KK's TREE in 3D （Animated & Seasonal）",
    "mod_id": "ProjectViewpointNearVegetation",
@@ -235,6 +267,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3819018807",
+   "item": "Viewpoint - Right Click Fix",
+   "mod_id": "ViewpointRightClick",
+   "jar": "mods/ViewpointRightClick/42/media/java/client/ViewpointRightClick.jar",
+   "sha256": "b90ea0b1f26f947062e5595712bf5f957bb916e10d1de31445c4fd13b3a13679",
+   "signed": false
+  },
+  {
    "workshop_id": "3816784011",
    "item": "Viewpoint - Smooth Frames",
    "mod_id": "ViewpointSmoothFrames",
@@ -275,6 +315,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3816521966",
+   "item": "Viewpoint Placement Fix",
+   "mod_id": "ViewpointPlacementFix",
+   "jar": "mods/ViewpointPlacementFix/42/media/java/client/ViewpointPlacementFix.jar",
+   "sha256": "ce18bb562e35b3eb91de405ec2af27068b92917e0939aec0a3a39a3440b9fcc9",
+   "signed": false
+  },
+  {
    "workshop_id": "3817501459",
    "item": "Viewpoint Texture Fix",
    "mod_id": "ViewpointTextureFix",
@@ -291,11 +339,27 @@
    "signed": false
   },
   {
+   "workshop_id": "3812559973",
+   "item": "Viewpoint Turbo - Light Performance Improvement [B42]",
+   "mod_id": "ViewpointTurbo",
+   "jar": "mods/ViewpointTurbo/42/media/java/client/ViewpointTurbo.jar",
+   "sha256": "90c55c23bc898a51d621c7648eaa22235696276554b85daaa4a3aa67b4e7d72b",
+   "signed": false
+  },
+  {
    "workshop_id": "3816442251",
    "item": "Viewpoint: Living Props",
    "mod_id": "ViewpointLivingProps",
    "jar": "mods/ViewpointLivingProps/42/media/java/client/ViewpointLivingProps.jar",
    "sha256": "c459e4372a8ddc357872654f7eaf588d7f66ffd1cf2a09c1b4c3aff06068d744",
+   "signed": false
+  },
+  {
+   "workshop_id": "3820609079",
+   "item": "Wall Texture Fix for Viewpoint",
+   "mod_id": "WallTextureFixForViewpoint",
+   "jar": "mods/WallTextureFixForViewpoint/42/media/java/client/WallTextureFixForViewpoint.jar",
+   "sha256": "3f6863aa96edbd51e2ed668faa8e78e3114fa4fe504a4249bb79960a0663536e",
    "signed": false
   },
   {
