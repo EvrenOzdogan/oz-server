@@ -1,15 +1,7 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-21T00:38:19Z",
+ "generated": "2026-10-21T01:46:14Z",
  "jars": [
-  {
-   "workshop_id": "3811472160",
-   "item": "3d Blood VFX for Viewpoint (experimental)",
-   "mod_id": "ViewpointBloodFX",
-   "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
-   "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
-   "signed": false
-  },
   {
    "workshop_id": "3815033191",
    "item": "Barricade Fix - Project Viewpoint",
@@ -17,14 +9,6 @@
    "jar": "mods/ViewpointBarricade/42/media/java/client/ViewpointBarricades.jar",
    "sha256": "cbe10c19938bee69e93da02bb4058da433f7180d41d2f9f375d185e9d177dab0",
    "signed": true
-  },
-  {
-   "workshop_id": "3813801053",
-   "item": "Blood FX for Viewpoint - Fixes",
-   "mod_id": "ViewpointBloodFXAddon",
-   "jar": "mods/ViewpointBloodFXAddon/42/media/java/client/BloodFXAddon.jar",
-   "sha256": "d1d298c1f75c9ac6edb6ef582b431ed97fe4eed91b3124e8ca7d368d6973016c",
-   "signed": false
   },
   {
    "workshop_id": "3821525282",
@@ -95,7 +79,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "278708d553b5e867d4e7e3a88af45b78cb064d6f5370185ad672bba2df8584a0",
+   "sha256": "b325d295c27dab9bd624833a4bd06a3592da0f5ddc51ff96a02e169ef57094d3",
    "signed": false
   },
   {
@@ -144,14 +128,6 @@
    "mod_id": "VisibleHelicopterEvent",
    "jar": "mods/VisibleHelicopterEvent/42/media/java/client/VisibleHelicopterEvent.jar",
    "sha256": "946b16c708f64b1ed2b6f0682a0474a42ac5bf70819b9938c691d2d3212965fd",
-   "signed": false
-  },
-  {
-   "workshop_id": "3813889000",
-   "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42.21.0] [SP/MP]",
-   "mod_id": "aparosa_pz3dBeams",
-   "jar": "mods/pz3dBeams/42/media/java/pz3dBeams.jar",
-   "sha256": "0fe99f60bd86f72f76de11bee43079ec7481c1579fe976bbdb89233d64441bff",
    "signed": false
   },
   {
