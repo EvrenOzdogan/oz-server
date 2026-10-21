@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-21T00:09:57Z",
+ "generated": "2026-10-21T00:10:53Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -24,6 +24,14 @@
    "mod_id": "ViewpointBloodFXAddon",
    "jar": "mods/ViewpointBloodFXAddon/42/media/java/client/BloodFXAddon.jar",
    "sha256": "d1d298c1f75c9ac6edb6ef582b431ed97fe4eed91b3124e8ca7d368d6973016c",
+   "signed": false
+  },
+  {
+   "workshop_id": "3821525282",
+   "item": "Character Texture VRAM Leak Fix [ZombieBuddy]",
+   "mod_id": "SmartTextureLeakFix",
+   "jar": "mods/SmartTextureLeakFix/42/media/java/client/SmartTextureLeakFix.jar",
+   "sha256": "a836e463a5563ce2d3630cd3edf1d1f65091dd35910a638cb7ac405d90658d27",
    "signed": false
   },
   {
@@ -227,6 +235,22 @@
    "signed": true
   },
   {
+   "workshop_id": "3820158673",
+   "item": "Viewpoint - 3D RVs [B42.21] [WIP]",
+   "mod_id": "GridRV",
+   "jar": "mods/GridRV/42/media/java/client/GridRV.jar",
+   "sha256": "f47c694f72d6fd6ba8be4102ebfed05c804c15d45916550a98a7e6a9a8939a5a",
+   "signed": false
+  },
+  {
+   "workshop_id": "3820158673",
+   "item": "Viewpoint - 3D RVs [B42.21] [WIP]",
+   "mod_id": "GridRVHost",
+   "jar": "mods/GridRVHost/42/media/java/server/GridRVHost.jar",
+   "sha256": "3e3c603c3790c04448ad6b64161021b419407f0687152e1bcf7aff0089c01b01",
+   "signed": false
+  },
+  {
    "workshop_id": "3813194971",
    "item": "Viewpoint - Advanced Throwables",
    "mod_id": "ViewpointAdvancedThrowables",
@@ -336,6 +360,14 @@
    "mod_id": "ViewpointLivingProps",
    "jar": "mods/ViewpointLivingProps/42/media/java/client/ViewpointLivingProps.jar",
    "sha256": "c459e4372a8ddc357872654f7eaf588d7f66ffd1cf2a09c1b4c3aff06068d744",
+   "signed": false
+  },
+  {
+   "workshop_id": "3819844505",
+   "item": "VRAM Steady - Fix VRAM filling up (B42) (AI)",
+   "mod_id": "VRAMSteady",
+   "jar": "mods/VRAMSteady/42/media/java/client/VRAMSteady.jar",
+   "sha256": "321e923cd4878719b94f37de3a20a88885496a5506e1d3a46d6dcedb8b0c5b40",
    "signed": false
   },
   {
