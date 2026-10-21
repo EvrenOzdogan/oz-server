@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-20T22:35:51Z",
+ "generated": "2026-10-21T00:09:57Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -87,7 +87,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "7a6be76d706136479d6f5b4ad30052b8f0a4d3b4c91003edae6f0084f00028c2",
+   "sha256": "c2c58873c14bff8b410f524e9946abff10c45f8fa3bcff6957332a2addec5b0f",
    "signed": false
   },
   {
@@ -168,14 +168,6 @@
    "mod_id": "PV-modmapbakefix",
    "jar": "mods/PV-modmapbakefix/42/media/java/client/PV-modmapbakefix.jar",
    "sha256": "b1ac9475d1d506ca4f5498ca4e158612ee6f63d131d3ffe86986b25c6cd9ebe7",
-   "signed": false
-  },
-  {
-   "workshop_id": "3815931973",
-   "item": "Project Viewpoint: KK's Shelves in 3D",
-   "mod_id": "ProjectViewpointShelves",
-   "jar": "mods/ProjectViewpointShelves/42/media/java/client/ProjectViewpointShelves.jar",
-   "sha256": "cb111d813c3436b0355c44a65f9d38fb5ebb489a4497f10caaa2027240a116cf",
    "signed": false
   },
   {
@@ -299,14 +291,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3814560827",
-   "item": "Viewpoint Fishing",
-   "mod_id": "FishingView",
-   "jar": "mods/FishingView/42/media/java/client/FishingView.jar",
-   "sha256": "72352370b5b20eee4b37a061c115ecd84574662cfb5f4634ec5ce347508b0d10",
-   "signed": false
-  },
-  {
    "workshop_id": "3814994364",
    "item": "Viewpoint Foraging",
    "mod_id": "ViewpointForaging",
@@ -360,14 +344,6 @@
    "mod_id": "WallTextureFixForViewpoint",
    "jar": "mods/WallTextureFixForViewpoint/42/media/java/client/WallTextureFixForViewpoint.jar",
    "sha256": "08e4532d157625757b97d5315772a0721d8bb02b5b6e58fc307e008d202c4703",
-   "signed": false
-  },
-  {
-   "workshop_id": "3816856700",
-   "item": "Yeah it's water bitch-(fix-update)",
-   "mod_id": "PoolPit",
-   "jar": "mods/yeahbitch/42/media/java/client/PoolPitVP.jar",
-   "sha256": "8cab7e62bcbce12d5599e36a34f4ac666c2a86ef5a13d0e50d9f6827ee621f4b",
    "signed": false
   },
   {
