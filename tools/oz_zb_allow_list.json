@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-22T02:19:00Z",
+ "generated": "2026-10-22T03:06:50Z",
  "jars": [
   {
    "workshop_id": "3815033191",
@@ -79,7 +79,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "90ae2eefeae7921b9b0bbfd77e604b6685b081092d41ebb9001f2827611ef7d0",
+   "sha256": "b993c84342ac9cb0908396fb5e6cf9225dce423d5ff0bb0d696dd936c6d2b8ba",
    "signed": false
   },
   {
@@ -344,14 +344,6 @@
    "mod_id": "VRAMSteady",
    "jar": "mods/VRAMSteady/42/media/java/client/VRAMSteady.jar",
    "sha256": "321e923cd4878719b94f37de3a20a88885496a5506e1d3a46d6dcedb8b0c5b40",
-   "signed": false
-  },
-  {
-   "workshop_id": "3820609079",
-   "item": "Wall Texture Fix for Viewpoint",
-   "mod_id": "WallTextureFixForViewpoint",
-   "jar": "mods/WallTextureFixForViewpoint/42/media/java/client/WallTextureFixForViewpoint.jar",
-   "sha256": "08e4532d157625757b97d5315772a0721d8bb02b5b6e58fc307e008d202c4703",
    "signed": false
   },
   {
