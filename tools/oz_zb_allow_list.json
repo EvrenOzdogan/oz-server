@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-22T22:25:20Z",
+ "generated": "2026-10-22T23:15:26Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -104,6 +104,14 @@
    "mod_id": "MutualPvPConsent",
    "jar": "mods/MutualPvPConsent/42/media/java/MutualPvPConsent.jar",
    "sha256": "254e73195b678191047e3850f0b9a7179545a6e0df1228f3a6cc25d11390092e",
+   "signed": false
+  },
+  {
+   "workshop_id": "3820563040",
+   "item": "Oz Division Shaders",
+   "mod_id": "OzPhoton",
+   "jar": "mods/OzPhoton/42/media/java/client/OzPhoton.jar",
+   "sha256": "ed4142719b01d862bc4f5c14e6011eff5a59e5a557d3e13cc365a16abe40be44",
    "signed": false
   },
   {
