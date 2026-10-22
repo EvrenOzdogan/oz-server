@@ -1,7 +1,15 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-22T03:06:50Z",
+ "generated": "2026-10-22T21:26:37Z",
  "jars": [
+  {
+   "workshop_id": "3811472160",
+   "item": "3d Blood VFX for Viewpoint (experimental)",
+   "mod_id": "ViewpointBloodFX",
+   "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
+   "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
+   "signed": false
+  },
   {
    "workshop_id": "3815033191",
    "item": "Barricade Fix - Project Viewpoint",
@@ -9,6 +17,22 @@
    "jar": "mods/ViewpointBarricade/42/media/java/client/ViewpointBarricades.jar",
    "sha256": "cbe10c19938bee69e93da02bb4058da433f7180d41d2f9f375d185e9d177dab0",
    "signed": true
+  },
+  {
+   "workshop_id": "3813801053",
+   "item": "Blood FX for Viewpoint - Fixes",
+   "mod_id": "ViewpointBloodFXAddon",
+   "jar": "mods/ViewpointBloodFXAddon/42/media/java/client/BloodFXAddon.jar",
+   "sha256": "d1d298c1f75c9ac6edb6ef582b431ed97fe4eed91b3124e8ca7d368d6973016c",
+   "signed": false
+  },
+  {
+   "workshop_id": "3823979843",
+   "item": "Ceiling Lights (Viewpoint)",
+   "mod_id": "CeilingLights",
+   "jar": "mods/CeilingLights/42/media/java/client/CeilingLights.jar",
+   "sha256": "d8d9a166b38d41906b798f6d20575a89918e42eba97225e5d9c1e6ced3c8a06a",
+   "signed": false
   },
   {
    "workshop_id": "3821525282",
@@ -35,11 +59,35 @@
    "signed": true
   },
   {
+   "workshop_id": "3819976507",
+   "item": "Hot Brass for Viewpoint",
+   "mod_id": "HotBrassViewpoint",
+   "jar": "mods/HotBrassViewpoint/42/media/java/client/HotBrassViewpoint.jar",
+   "sha256": "eede64cf3e5b4766ea6e2f86848f76b1cd8ba71a304ca62c3f5e9dc6d519d939",
+   "signed": false
+  },
+  {
+   "workshop_id": "3818432217",
+   "item": "Immersive Camera Motion : Project Viewpoint Add-on",
+   "mod_id": "ViewpointBodycam",
+   "jar": "mods/ViewpointBodycam/42/media/java/client/ViewpointBodycam.jar",
+   "sha256": "14301143a45abe907d78f16cf4ba0829a93596cbab196c179613e06b15da8677",
+   "signed": false
+  },
+  {
    "workshop_id": "3816586790",
    "item": "Immersive Snow - Viewpoint",
    "mod_id": "ImmersiveSnowViewpoint",
    "jar": "mods/ImmersiveSnowViewpoint/42/media/java/client/ImmersiveSnowVP.jar",
    "sha256": "645c319a06cceffc467c2cbf98ead38b486f4208eee86499917b88a98f9e03bf",
+   "signed": false
+  },
+  {
+   "workshop_id": "3823984682",
+   "item": "Level Furniture (Viewpoint)",
+   "mod_id": "LevelFurniture",
+   "jar": "mods/LevelFurniture/42/media/java/client/LevelFurniture.jar",
+   "sha256": "6ee1a524184fc818a16e293276167b3459220cb75a9878d810d010b6036d6087",
    "signed": false
   },
   {
@@ -107,6 +155,30 @@
    "signed": false
   },
   {
+   "workshop_id": "3818859807",
+   "item": "Project Viewpoint - 3D Doors, Gates & Garages",
+   "mod_id": "BasileDoors3D",
+   "jar": "mods/BasileDoors3D/42/media/java/client/BasileDoors3D.jar",
+   "sha256": "93c3bf1e6e6580250839411d9dc03038a05727ea6101a079602dd2ebf172e419",
+   "signed": false
+  },
+  {
+   "workshop_id": "3811640626",
+   "item": "Project Viewpoint - 3D Tracer Fix",
+   "mod_id": "Viewpoint3DTracerFix",
+   "jar": "mods/Viewpoint3DTracerFix/42/media/java/client/ViewpointTracers.jar",
+   "sha256": "be461c63ee8941d75139cb1add6b487857f7899bc339ffd613ffaefe44721051",
+   "signed": false
+  },
+  {
+   "workshop_id": "3820462383",
+   "item": "Project Viewpoint - Actual Door Rattling",
+   "mod_id": "RealisticDoorImpacts",
+   "jar": "mods/RealisticDoorImpacts/42.21/media/java/client/RealisticDoorImpacts.jar",
+   "sha256": "8ddeeb7f7484912f2f30bc86cf918ee204f73981b10af08f57ba6fca99915597",
+   "signed": false
+  },
+  {
    "workshop_id": "3817413313",
    "item": "Project Viewpoint - Immersive Driving",
    "mod_id": "ImmersiveDriving",
@@ -128,6 +200,14 @@
    "mod_id": "VisibleHelicopterEvent",
    "jar": "mods/VisibleHelicopterEvent/42/media/java/client/VisibleHelicopterEvent.jar",
    "sha256": "946b16c708f64b1ed2b6f0682a0474a42ac5bf70819b9938c691d2d3212965fd",
+   "signed": false
+  },
+  {
+   "workshop_id": "3813889000",
+   "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42.21.0] [SP/MP]",
+   "mod_id": "aparosa_pz3dBeams",
+   "jar": "mods/pz3dBeams/42/media/java/pz3dBeams.jar",
+   "sha256": "0fe99f60bd86f72f76de11bee43079ec7481c1579fe976bbdb89233d64441bff",
    "signed": false
   },
   {
@@ -193,6 +273,14 @@
    "jar": "mods/PZHDWalls/42/media/java/client/PZHDWalls-0.1.0.jar",
    "sha256": "6a03ffb85230e015e689c96a8d5e8f7f845e5727fb8a39664158a9867ff185d2",
    "signed": true
+  },
+  {
+   "workshop_id": "3814635273",
+   "item": "RVV+Viewpoint",
+   "mod_id": "RVV+Viewpoint",
+   "jar": "mods/RVV+Viewpoint/42/media/java/client/RVVViewpointCompat.jar",
+   "sha256": "8d4d09dab188dbfdb23c6b9d8c3189d44191cf17fb05b9f9b837a38f88cd7d82",
+   "signed": false
   },
   {
    "workshop_id": "3813032735",
@@ -275,6 +363,22 @@
    "signed": false
   },
   {
+   "workshop_id": "3820965001",
+   "item": "Viewpoint - Visceral",
+   "mod_id": "VisceralViewpoint",
+   "jar": "mods/Visceral/42/media/java/client/Visceral.jar",
+   "sha256": "08e5e24c1732e648afdf37c7f204cac2f136118716f27e8a52e1e2388c960c91",
+   "signed": false
+  },
+  {
+   "workshop_id": "3813723091",
+   "item": "Viewpoint 3D Fences and Gates (Beta)",
+   "mod_id": "ViewpointFences",
+   "jar": "mods/ViewpointFences/42/media/java/client/ViewpointFences.jar",
+   "sha256": "254fcf6d8f86a5f0f1583e81c53d273f851e372aa1940870e544945f0b526c15",
+   "signed": false
+  },
+  {
    "workshop_id": "3812702301",
    "item": "Viewpoint Advanced Movement",
    "mod_id": "ViewpointAdvancedMovement",
@@ -291,6 +395,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3817842243",
+   "item": "Viewpoint Fixes",
+   "mod_id": "ViewpointFixes",
+   "jar": "mods/ViewpointFixesV0.1.6a/42/media/java/client/ViewpointFixesV0.1.6a.jar",
+   "sha256": "5a24719696b60a3ddcfa857d5581da3684bb419e0f247ca5e83a067ca3d682ba",
+   "signed": false
+  },
+  {
    "workshop_id": "3814994364",
    "item": "Viewpoint Foraging",
    "mod_id": "ViewpointForaging",
@@ -303,7 +415,7 @@
    "item": "Viewpoint Placement Fix",
    "mod_id": "ViewpointPlacementFix",
    "jar": "mods/ViewpointPlacementFix/42/media/java/client/ViewpointPlacementFix.jar",
-   "sha256": "ce18bb562e35b3eb91de405ec2af27068b92917e0939aec0a3a39a3440b9fcc9",
+   "sha256": "b69a5637b719ee07315d47ddc6c90be60cd134b7967c63820d15cad1e64ed881",
    "signed": false
   },
   {
@@ -331,6 +443,22 @@
    "signed": false
   },
   {
+   "workshop_id": "3824119825",
+   "item": "Viewpoint Wristwatch - Check the Time, Set Alarms, Live Watch Faces [B42]",
+   "mod_id": "LiveWristwatch",
+   "jar": "mods/LiveWristwatch/42/media/java/client/LiveWristwatch.jar",
+   "sha256": "16d0e014a91c524c3ad2808b45ced4a357b801c7e6756489dd46595094cb5c9d",
+   "signed": false
+  },
+  {
+   "workshop_id": "3822854313",
+   "item": "Viewpoint x A-LIFE",
+   "mod_id": "ViewpointALife",
+   "jar": "mods/ViewpointALife/42/media/java/client/ViewpointALife.jar",
+   "sha256": "e11292c784031fe130b8dd0adf64c832be276a91c4ae850004ef452c91e5f975",
+   "signed": false
+  },
+  {
    "workshop_id": "3816442251",
    "item": "Viewpoint: Living Props",
    "mod_id": "ViewpointLivingProps",
@@ -347,11 +475,19 @@
    "signed": false
   },
   {
+   "workshop_id": "3816856700",
+   "item": "Yeah it's water bitch-(fix-update)",
+   "mod_id": "PoolPit",
+   "jar": "mods/yeahbitch/42/media/java/client/PoolPitVP.jar",
+   "sha256": "8cab7e62bcbce12d5599e36a34f4ac666c2a86ef5a13d0e50d9f6827ee621f4b",
+   "signed": false
+  },
+  {
    "workshop_id": "3815166404",
    "item": "|Mvdox Grass \"grass mods for viewpoint\" Unofficial mods|",
    "mod_id": "Mvdox-Grass-v1",
    "jar": "mods/mvdox-grass-v1/42/media/java/client/MvdoxGrassSeasonal.jar",
-   "sha256": "78b400a3fc87325706124ed203ae876e264df8123fec1e33d6d0cdd8f4b454cb",
+   "sha256": "ca11b7b8213b57a341edcab24a4a564f3f6c9baa30fe6a33611e7ba8af6d4568",
    "signed": false
   }
  ]
