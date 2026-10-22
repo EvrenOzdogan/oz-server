@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-22T22:17:53Z",
+ "generated": "2026-10-22T22:25:20Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -151,7 +151,7 @@
    "item": "Project Viewpoint - 3D Doors, Gates & Garages",
    "mod_id": "BasileDoors3D",
    "jar": "mods/BasileDoors3D/42/media/java/client/BasileDoors3D.jar",
-   "sha256": "93c3bf1e6e6580250839411d9dc03038a05727ea6101a079602dd2ebf172e419",
+   "sha256": "f3a885caa29058923a4ab121c18b18375fd06f789088d284fba4fcbc5e5e3cd1",
    "signed": false
   },
   {
@@ -347,6 +347,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3817294484",
+   "item": "Viewpoint - Roofs (WIP)",
+   "mod_id": "ViewpointRoofs",
+   "jar": "mods/ViewpointRoofs/42/media/java/client/ViewpointRoofs.jar",
+   "sha256": "ad05fa5a5abf9e6ea38ed451d136a66b39188a24368dc55fb36d0a41686663b3",
+   "signed": false
+  },
+  {
    "workshop_id": "3816784011",
    "item": "Viewpoint - Smooth Frames",
    "mod_id": "ViewpointSmoothFrames",
@@ -360,6 +368,14 @@
    "mod_id": "VisceralViewpoint",
    "jar": "mods/Visceral/42/media/java/client/Visceral.jar",
    "sha256": "08e5e24c1732e648afdf37c7f204cac2f136118716f27e8a52e1e2388c960c91",
+   "signed": false
+  },
+  {
+   "workshop_id": "3823558761",
+   "item": "Viewpoint - Wind Sway + Falling Leaves",
+   "mod_id": "ViewpointWindSway",
+   "jar": "mods/ViewpointWindSway/42/media/java/client/ViewpointWindSway.jar",
+   "sha256": "bdb58c5be977b9c3200bafd4591c27c2f8fbf76a919276f8e9a1d54727089950",
    "signed": false
   },
   {
@@ -456,6 +472,14 @@
    "mod_id": "ViewpointLivingProps",
    "jar": "mods/ViewpointLivingProps/42/media/java/client/ViewpointLivingProps.jar",
    "sha256": "c459e4372a8ddc357872654f7eaf588d7f66ffd1cf2a09c1b4c3aff06068d744",
+   "signed": false
+  },
+  {
+   "workshop_id": "3824354252",
+   "item": "Visible Vehicle Coupling - Viewpoint Addon",
+   "mod_id": "VVCViewpoint",
+   "jar": "mods/VVCViewpoint/42/media/java/client/VVCViewpoint.jar",
+   "sha256": "267b0a762dbd3cb5142309a984651a14f8bc0f95e3c06612f5bcd9eb3966847e",
    "signed": false
   },
   {
