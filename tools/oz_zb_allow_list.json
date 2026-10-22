@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-22T21:26:37Z",
+ "generated": "2026-10-22T22:17:53Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -67,14 +67,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3818432217",
-   "item": "Immersive Camera Motion : Project Viewpoint Add-on",
-   "mod_id": "ViewpointBodycam",
-   "jar": "mods/ViewpointBodycam/42/media/java/client/ViewpointBodycam.jar",
-   "sha256": "14301143a45abe907d78f16cf4ba0829a93596cbab196c179613e06b15da8677",
-   "signed": false
-  },
-  {
    "workshop_id": "3816586790",
    "item": "Immersive Snow - Viewpoint",
    "mod_id": "ImmersiveSnowViewpoint",
@@ -127,7 +119,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "b993c84342ac9cb0908396fb5e6cf9225dce423d5ff0bb0d696dd936c6d2b8ba",
+   "sha256": "aece91677be314b19694bf34fcf92a398c50ad71569c602cf82903e9436e5839",
    "signed": false
   },
   {
@@ -472,14 +464,6 @@
    "mod_id": "VRAMSteady",
    "jar": "mods/VRAMSteady/42/media/java/client/VRAMSteady.jar",
    "sha256": "321e923cd4878719b94f37de3a20a88885496a5506e1d3a46d6dcedb8b0c5b40",
-   "signed": false
-  },
-  {
-   "workshop_id": "3816856700",
-   "item": "Yeah it's water bitch-(fix-update)",
-   "mod_id": "PoolPit",
-   "jar": "mods/yeahbitch/42/media/java/client/PoolPitVP.jar",
-   "sha256": "8cab7e62bcbce12d5599e36a34f4ac666c2a86ef5a13d0e50d9f6827ee621f4b",
    "signed": false
   },
   {
