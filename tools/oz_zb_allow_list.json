@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-23T03:26:44Z",
+ "generated": "2026-10-25T16:06:10Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -31,7 +31,7 @@
    "item": "Ceiling Lights (Viewpoint)",
    "mod_id": "CeilingLights",
    "jar": "mods/CeilingLights/42/media/java/client/CeilingLights.jar",
-   "sha256": "d8d9a166b38d41906b798f6d20575a89918e42eba97225e5d9c1e6ced3c8a06a",
+   "sha256": "2078fbaa32bc7d933ddb8fe48bba39ed7e584d57b924ba1ee0aadc9f674456c3",
    "signed": false
   },
   {
@@ -71,7 +71,7 @@
    "item": "Immersive Snow - Viewpoint",
    "mod_id": "ImmersiveSnowViewpoint",
    "jar": "mods/ImmersiveSnowViewpoint/42/media/java/client/ImmersiveSnowVP.jar",
-   "sha256": "645c319a06cceffc467c2cbf98ead38b486f4208eee86499917b88a98f9e03bf",
+   "sha256": "9dfb2fa6d4ebe25d0bad5c385d956e7122736976f525a5b7d7f5b1346055b4bf",
    "signed": false
   },
   {
@@ -91,14 +91,6 @@
    "signed": true
   },
   {
-   "workshop_id": "3780788288",
-   "item": "Lucy's Performance Optimization - RV / Chunk Caching",
-   "mod_id": "LucysOptMapMemory",
-   "jar": "mods/LucysOptMapMemory/42/media/java/LucysOptMapMemory.jar",
-   "sha256": "184c380faee19e80958258dc4a96e62371a416195db572c1b5bb3364debe8b32",
-   "signed": false
-  },
-  {
    "workshop_id": "3818108839",
    "item": "Mutual PvP - both players must opt in",
    "mod_id": "MutualPvPConsent",
@@ -111,7 +103,7 @@
    "item": "Oz Division Shaders",
    "mod_id": "OzPhoton",
    "jar": "mods/OzPhoton/42/media/java/client/OzPhoton.jar",
-   "sha256": "47688dea2f224f8bf584c7b435c23b2b93ad7c78150b17535b52e2c1eea36bbc",
+   "sha256": "288f6d9992f360ca83a5f6a8b30078202d2997154e5d21addbe3c0262269fe7a",
    "signed": false
   },
   {
@@ -255,7 +247,7 @@
    "item": "Project Viewpoint: True Weathers & Lighting",
    "mod_id": "ViewpointTrueWeathers",
    "jar": "mods/ViewpointTrueWeathers/42/media/java/client/ViewpointTrueWeathers.jar",
-   "sha256": "3cd9f4acc0d609f231e09324cdeb5d16506409d4eccaea1e6ca73c874758e6d0",
+   "sha256": "ecefc1449253aa369b11d1294c81ef6b0bb05905ff728b98329806ebf257ab16",
    "signed": false
   },
   {
@@ -263,7 +255,7 @@
    "item": "Project Viewpoint: True Weathers & Lighting",
    "mod_id": "ViewpointTrueWeathersGameplay",
    "jar": "mods/ViewpointTrueWeathersGameplay/42/media/java/TrueWeathersGameplay.jar",
-   "sha256": "aecf9d822ec35ccc469497ad634d9b20256a3cde2ab923d7fe0bce10d8927744",
+   "sha256": "71fc578d58a8017f9a72ab690879cfa1f3039358d93cbe3ad40b64a6e39c80f0",
    "signed": false
   },
   {
@@ -276,7 +268,7 @@
   },
   {
    "workshop_id": "3814635273",
-   "item": "RVV+Viewpoint",
+   "item": "RVV+Viewpoint (WIP)",
    "mod_id": "RVV+Viewpoint",
    "jar": "mods/RVV+Viewpoint/42/media/java/client/RVVViewpointCompat.jar",
    "sha256": "8d4d09dab188dbfdb23c6b9d8c3189d44191cf17fb05b9f9b837a38f88cd7d82",
@@ -286,8 +278,8 @@
    "workshop_id": "3813032735",
    "item": "Shoot to Thrill (formerly I SEE THEM)",
    "mod_id": "ShootToThrillMultiplayer",
-   "jar": "mods/ShootToThrillMultiplayer/42/media/java/client/ISeeThem.jar",
-   "sha256": "e1536809c5ad109f7e4855ee0b613bc6708e056e79c082b3240a7fa854338083",
+   "jar": "mods/ShootToThrillMultiplayer/42/media/java/ISeeThem.jar",
+   "sha256": "ea767ef9d0cd72740158503aa5215e66b06c38831990c4bd932af93a9c113015",
    "signed": false
   },
   {
@@ -383,15 +375,7 @@
    "item": "Viewpoint - Wind Sway + Falling Leaves",
    "mod_id": "ViewpointWindSway",
    "jar": "mods/ViewpointWindSway/42/media/java/client/ViewpointWindSway.jar",
-   "sha256": "bdb58c5be977b9c3200bafd4591c27c2f8fbf76a919276f8e9a1d54727089950",
-   "signed": false
-  },
-  {
-   "workshop_id": "3813723091",
-   "item": "Viewpoint 3D Fences and Gates (Beta)",
-   "mod_id": "ViewpointFences",
-   "jar": "mods/ViewpointFences/42/media/java/client/ViewpointFences.jar",
-   "sha256": "254fcf6d8f86a5f0f1583e81c53d273f851e372aa1940870e544945f0b526c15",
+   "sha256": "e91ec59b9db8424cd59205920ad79465771f6e52984f0098f69b04f6af479a96",
    "signed": false
   },
   {
@@ -463,7 +447,7 @@
    "item": "Viewpoint Wristwatch - Check the Time, Set Alarms, Live Watch Faces [B42]",
    "mod_id": "LiveWristwatch",
    "jar": "mods/LiveWristwatch/42/media/java/client/LiveWristwatch.jar",
-   "sha256": "16d0e014a91c524c3ad2808b45ced4a357b801c7e6756489dd46595094cb5c9d",
+   "sha256": "4e670f6a723923076dad04ee84a5213fb1b6b73f170281fe9f176f8bd813557e",
    "signed": false
   },
   {
@@ -503,7 +487,7 @@
    "item": "|Mvdox Grass \"grass mods for viewpoint\" Unofficial mods|",
    "mod_id": "Mvdox-Grass-v1",
    "jar": "mods/mvdox-grass-v1/42/media/java/client/MvdoxGrassSeasonal.jar",
-   "sha256": "ca11b7b8213b57a341edcab24a4a564f3f6c9baa30fe6a33611e7ba8af6d4568",
+   "sha256": "2b0a64972cb930db3651bb444ce90419bb94ce43c0ba461ab8538db741eeb5d6",
    "signed": false
   }
  ]
