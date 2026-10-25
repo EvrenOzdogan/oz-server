@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-25T16:06:10Z",
+ "generated": "2026-10-25T17:24:04Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -371,14 +371,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3823558761",
-   "item": "Viewpoint - Wind Sway + Falling Leaves",
-   "mod_id": "ViewpointWindSway",
-   "jar": "mods/ViewpointWindSway/42/media/java/client/ViewpointWindSway.jar",
-   "sha256": "e91ec59b9db8424cd59205920ad79465771f6e52984f0098f69b04f6af479a96",
-   "signed": false
-  },
-  {
    "workshop_id": "3812702301",
    "item": "Viewpoint Advanced Movement",
    "mod_id": "ViewpointAdvancedMovement",
@@ -456,14 +448,6 @@
    "mod_id": "ViewpointALife",
    "jar": "mods/ViewpointALife/42/media/java/client/ViewpointALife.jar",
    "sha256": "e11292c784031fe130b8dd0adf64c832be276a91c4ae850004ef452c91e5f975",
-   "signed": false
-  },
-  {
-   "workshop_id": "3816442251",
-   "item": "Viewpoint: Living Props",
-   "mod_id": "ViewpointLivingProps",
-   "jar": "mods/ViewpointLivingProps/42/media/java/client/ViewpointLivingProps.jar",
-   "sha256": "c459e4372a8ddc357872654f7eaf588d7f66ffd1cf2a09c1b4c3aff06068d744",
    "signed": false
   },
   {
