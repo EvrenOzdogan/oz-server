@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-25T20:39:15Z",
+ "generated": "2026-10-25T21:37:15Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -8,6 +8,22 @@
    "mod_id": "ViewpointBloodFX",
    "jar": "mods/ViewpointBloodFX/42/media/java/client/BloodFX.jar",
    "sha256": "82559b9fa2fafe16c8cd690ff197bc30999e4c8dca36c732dc2106f2257c7434",
+   "signed": false
+  },
+  {
+   "workshop_id": "3818359767",
+   "item": "3D Helicopter Event (Project Viewpoint)",
+   "mod_id": "HeliEvent",
+   "jar": "mods/HeliEvent/42/media/java/client/HeliEvent.jar",
+   "sha256": "5e16ee507d70e1f704b8262494402d2d1b0cbd5ce960ff951419ea4f10214e32",
+   "signed": false
+  },
+  {
+   "workshop_id": "3816775774",
+   "item": "[B42] Knox Inventory - Tarkov-style UI Overhaul",
+   "mod_id": "KnoxInventory",
+   "jar": "mods/KnoxInventory/42/media/java/client/KnoxInventoryJava.jar",
+   "sha256": "8db2b9b4f5cff945120317168d8fcdf26f67f825306d6df7bb259743d3676b59",
    "signed": false
   },
   {
