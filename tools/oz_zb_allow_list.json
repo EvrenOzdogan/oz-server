@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-25T17:27:20Z",
+ "generated": "2026-10-25T20:39:15Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -247,7 +247,7 @@
    "item": "Project Viewpoint: True Weathers & Lighting",
    "mod_id": "ViewpointTrueWeathers",
    "jar": "mods/ViewpointTrueWeathers/42/media/java/client/ViewpointTrueWeathers.jar",
-   "sha256": "742b545910d236fb933600251538502bf2ccfc5c4a0f53ba193d588c17a15b90",
+   "sha256": "a772096480e082a21f0588b85710250151c1b1d278762ba4720872d4f12c8234",
    "signed": false
   },
   {
@@ -255,7 +255,7 @@
    "item": "Project Viewpoint: True Weathers & Lighting",
    "mod_id": "ViewpointTrueWeathersGameplay",
    "jar": "mods/ViewpointTrueWeathersGameplay/42/media/java/TrueWeathersGameplay.jar",
-   "sha256": "a072d20805e322ccc2457ab8f437cc9981790d348658799a6b3c800388835f2f",
+   "sha256": "f56ac6b0d89f838efed4750ecbc077b1003ed038a9111f927a90b0888891b46f",
    "signed": false
   },
   {
