@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-25T21:37:15Z",
+ "generated": "2026-10-25T21:46:48Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -21,9 +21,9 @@
   {
    "workshop_id": "3816775774",
    "item": "[B42] Knox Inventory - Tarkov-style UI Overhaul",
-   "mod_id": "KnoxInventory",
-   "jar": "mods/KnoxInventory/42/media/java/client/KnoxInventoryJava.jar",
-   "sha256": "8db2b9b4f5cff945120317168d8fcdf26f67f825306d6df7bb259743d3676b59",
+   "mod_id": "KnoxInventoryBeta",
+   "jar": "mods/KnoxInventoryBeta/42/media/java/client/KnoxInventoryJava.jar",
+   "sha256": "fd6834d9fa62ca557eb62f6dfcc618b59e5a3896421d106fea8bcca8d06bcd7c",
    "signed": false
   },
   {
