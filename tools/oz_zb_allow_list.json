@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-26T02:24:36Z",
+ "generated": "2026-10-26T04:00:11Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -67,14 +67,6 @@
    "signed": true
   },
   {
-   "workshop_id": "3812896812",
-   "item": "Helicopter Fix - Project Viewpoint",
-   "mod_id": "ViewpointHeli",
-   "jar": "mods/ViewpointHeli/42/media/java/client/AviationCoreLimitsTerrainTilt.jar",
-   "sha256": "11d90227db497b29517104624ade8579a354d59ec5d76b5da46e43f0442eb401",
-   "signed": true
-  },
-  {
    "workshop_id": "3819976507",
    "item": "Hot Brass for Viewpoint",
    "mod_id": "HotBrassViewpoint",
@@ -127,7 +119,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "482b26203c87f6923279d72094a70f6c245bca79d34cd689cdc0e3286cb4770c",
+   "sha256": "1e09803e9e2d37481b95ad4e9909b0e905067bb8fad43a7ec6feef40f93a170b",
    "signed": false
   },
   {
