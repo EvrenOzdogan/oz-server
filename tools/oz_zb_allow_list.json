@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-26T04:06:37Z",
+ "generated": "2026-10-26T12:41:26Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "1e09803e9e2d37481b95ad4e9909b0e905067bb8fad43a7ec6feef40f93a170b",
+   "sha256": "ddf41bd2ec3c3465b6c42929919bbebd5802128412af09e535c8b75a061b7df1",
    "signed": false
   },
   {
@@ -488,14 +488,6 @@
    "mod_id": "ViewpointVisualFixes",
    "jar": "mods/ViewpointVisualFixes/42/media/java/client/ViewpointVisualFixes.jar",
    "sha256": "24a1c84f25f9ea95e7a561701986ba2f2f3a49213aa452ac4837c63d4339dbd8",
-   "signed": false
-  },
-  {
-   "workshop_id": "3824119825",
-   "item": "Viewpoint Wristwatch - Check the Time, Set Alarms, Live Watch Faces [B42]",
-   "mod_id": "LiveWristwatch",
-   "jar": "mods/LiveWristwatch/42/media/java/client/LiveWristwatch.jar",
-   "sha256": "4e670f6a723923076dad04ee84a5213fb1b6b73f170281fe9f176f8bd813557e",
    "signed": false
   },
   {
