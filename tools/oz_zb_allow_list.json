@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-26T14:02:27Z",
+ "generated": "2026-10-26T21:28:39Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -63,7 +63,7 @@
    "item": "Corpse Tow [B42MP]",
    "mod_id": "CorpseProxyLab",
    "jar": "mods/CorpseProxyLab/42/media/java/CorpseProxyWorld.jar",
-   "sha256": "f112ae251260e5d0ef5c564bcb956197dbccb1f3d6f4a36294dd44d71f4146b4",
+   "sha256": "929c21c35649027398ef797277d6fb3450a4b2595cdd1bc6fa21644e4c475d45",
    "signed": false
   },
   {
@@ -119,7 +119,7 @@
    "item": "Night Vision RABS (Viewpoint)",
    "mod_id": "RNVTs",
    "jar": "mods/RNVTs/42/media/java/client/RNVTs.jar",
-   "sha256": "3b4c4f394152141c970b61ba85f2c7ad3bcd51f7d00acef3a88caef45ad45e13",
+   "sha256": "e04d86bc61494d9be32dd0469ebb8afb4dd3dc3d18b80f43bf56e711b606c09e",
    "signed": false
   },
   {
