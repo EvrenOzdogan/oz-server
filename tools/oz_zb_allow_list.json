@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-26T04:00:11Z",
+ "generated": "2026-10-26T04:06:37Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -59,6 +59,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3823056494",
+   "item": "Corpse Tow [B42MP]",
+   "mod_id": "CorpseProxyLab",
+   "jar": "mods/CorpseProxyLab/42/media/java/CorpseProxyWorld.jar",
+   "sha256": "f112ae251260e5d0ef5c564bcb956197dbccb1f3d6f4a36294dd44d71f4146b4",
+   "signed": false
+  },
+  {
    "workshop_id": "3812151347",
    "item": "Door Fix - Project Viewpoint",
    "mod_id": "ViewpointDoor",
@@ -104,6 +112,14 @@
    "mod_id": "MutualPvPConsent",
    "jar": "mods/MutualPvPConsent/42/media/java/MutualPvPConsent.jar",
    "sha256": "254e73195b678191047e3850f0b9a7179545a6e0df1228f3a6cc25d11390092e",
+   "signed": false
+  },
+  {
+   "workshop_id": "3822122728",
+   "item": "Night Vision RABS (Viewpoint)",
+   "mod_id": "RNVTs",
+   "jar": "mods/RNVTs/42/media/java/client/RNVTs.jar",
+   "sha256": "908c89e302e5c6f9f5777ac4123a02c6b869e7a4d06d363ae8b80b8ab35e5e85",
    "signed": false
   },
   {
@@ -179,12 +195,28 @@
    "signed": false
   },
   {
+   "workshop_id": "3819166046",
+   "item": "Project Viewpoint - Isometric No More",
+   "mod_id": "isometricnomore",
+   "jar": "mods/isometricnomore/42/media/java/client/IsometricNoMore.jar",
+   "sha256": "45c7a64cea1a8073459a1b67767055f0d40712c864a45601981fc40ff622e774",
+   "signed": false
+  },
+  {
    "workshop_id": "3815019204",
    "item": "Project Viewpoint - KI5 Vehicle Parts Fix",
    "mod_id": "ProjectViewpointKI5VehiclePartsFix",
    "jar": "mods/ProjectViewpoint-KI5VehiclePartsFix/42/media/java/client/ViewpointVehiclePartsGuard.jar",
    "sha256": "35971ffd6b60f1675d3404d71e60fcad7417b005911bbc0ad46c7bbbe9cdfe93",
    "signed": false
+  },
+  {
+   "workshop_id": "3821900767",
+   "item": "Project Viewpoint - Radial Cursor",
+   "mod_id": "ViewpointRadialCursor",
+   "jar": "mods/ViewpointRadialCursor/42/media/java/client/ViewpointRadialCursor.jar",
+   "sha256": "c81f4fdd8547791178af4cec3ceeeefea87190fa5f95e968a95ae046369aac03",
+   "signed": true
   },
   {
    "workshop_id": "3819322670",
@@ -315,6 +347,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3812932905",
+   "item": "Viewpoint - Building Alignment Fix",
+   "mod_id": "ViewpointBuildingAlignment",
+   "jar": "mods/ViewpointBuildingAlignment/42/media/java/client/ViewpointBuildingAlignment.jar",
+   "sha256": "350f83f3789cd2b58b2bf009622dcdf59897e9ccb0d248c954106a9b7323b7ac",
+   "signed": false
+  },
+  {
    "workshop_id": "3812659173",
    "item": "Viewpoint - Crop Visibility Fix [B42.21]",
    "mod_id": "ViewpointCropVisibility",
@@ -368,6 +408,22 @@
    "mod_id": "ViewpointAdvancedMovement",
    "jar": "mods/ViewpointAdvancedMovement/42/media/java/client/ViewpointAdvancedMovement.jar",
    "sha256": "a7a704ab5b2220e8cabecc518adb6034b3cba3dcba04163e886034ba176e44b0",
+   "signed": false
+  },
+  {
+   "workshop_id": "3822667831",
+   "item": "Viewpoint Audio Sync FIX",
+   "mod_id": "ViewpointAudioSync",
+   "jar": "mods/ViewpointAudioSync/42/media/java/client/ViewpointAudioSync.jar",
+   "sha256": "04b508c156d89a002d6693936c9955af00abd3b641c909da97a0226007e05854",
+   "signed": false
+  },
+  {
+   "workshop_id": "3818585720",
+   "item": "Viewpoint Binoculars",
+   "mod_id": "ViewpointBinoculars",
+   "jar": "mods/ViewpointBinoculars/42/media/java/client/ViewpointBinoculars.jar",
+   "sha256": "4497b4e800cfcf6ab6d57a2ea687f0a2b9e0e2763a61e53269c273b91255b15a",
    "signed": false
   },
   {
@@ -427,6 +483,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3821308495",
+   "item": "Viewpoint Visual Fixes",
+   "mod_id": "ViewpointVisualFixes",
+   "jar": "mods/ViewpointVisualFixes/42/media/java/client/ViewpointVisualFixes.jar",
+   "sha256": "24a1c84f25f9ea95e7a561701986ba2f2f3a49213aa452ac4837c63d4339dbd8",
+   "signed": false
+  },
+  {
    "workshop_id": "3824119825",
    "item": "Viewpoint Wristwatch - Check the Time, Set Alarms, Live Watch Faces [B42]",
    "mod_id": "LiveWristwatch",
@@ -448,6 +512,14 @@
    "mod_id": "VVCViewpoint",
    "jar": "mods/VVCViewpoint/42/media/java/client/VVCViewpoint.jar",
    "sha256": "267b0a762dbd3cb5142309a984651a14f8bc0f95e3c06612f5bcd9eb3966847e",
+   "signed": false
+  },
+  {
+   "workshop_id": "3821860091",
+   "item": "VoidFix - Viewpoint Eye Culling Fix (+3P Flashlight Fix)",
+   "mod_id": "ViewpointEyeCulling",
+   "jar": "mods/ViewpointEyeCulling/42/media/java/client/ViewpointEyeCulling.jar",
+   "sha256": "53614eef53c037fc8cf9165dc0bfbb87c3f30d234ec0d47691f0202312da8301",
    "signed": false
   },
   {
