@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-27T04:03:45Z",
+ "generated": "2026-10-27T04:21:05Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -323,6 +323,14 @@
    "signed": true
   },
   {
+   "workshop_id": "3824826320",
+   "item": "Viewpoint - 3D Military Armory [B42.21] [WIP]",
+   "mod_id": "DeadWorksGunRacks",
+   "jar": "mods/DeadWorksGunRacks/42/media/java/DeadWorksGunRacks.jar",
+   "sha256": "29a87944710a0da819ff6b8cf84e7330741ef845476462ef83b178635fa83866",
+   "signed": false
+  },
+  {
    "workshop_id": "3820158673",
    "item": "Viewpoint - 3D RVs [B42.21] [WIP]",
    "mod_id": "GridRV",
@@ -432,6 +440,14 @@
    "mod_id": "ViewpointCompass",
    "jar": "mods/Viewpoint Compass/42/media/java/client/ViewpointCompass.jar",
    "sha256": "b40eb79497b7bbee530061059ded645b11d0505eca5222251b529368f2132e2e",
+   "signed": false
+  },
+  {
+   "workshop_id": "3827117908",
+   "item": "Viewpoint Doctor: Crashes, Flicker & 3D Packs [B42]",
+   "mod_id": "DGVViewpointDoctor",
+   "jar": "mods/DGVViewpointDoctor/42/media/java/client/DGVViewpointDoctor.jar",
+   "sha256": "caa0779e3ff52881a6335220ba871e7bcd83c502bc2a4ff63069dd47558269ca",
    "signed": false
   },
   {
