@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-27T02:14:50Z",
+ "generated": "2026-10-27T02:35:49Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz Fast Boot (skip the intro logos)",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "0b5ecf728b015c2eca872f2e04971a3518232e744bbe29aabaee7cf97a7d5e53",
+   "sha256": "5352119e5885cf2150de6a5e85f5e0971265749bd47854c1b1af46c8511c7bd0",
    "signed": false
   },
   {
