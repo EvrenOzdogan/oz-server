@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-28T03:50:42Z",
+ "generated": "2026-10-28T06:05:23Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -63,7 +63,7 @@
    "item": "Corpse Tow [B42MP]",
    "mod_id": "CorpseProxyLab",
    "jar": "mods/CorpseProxyLab/42/media/java/CorpseProxyWorld.jar",
-   "sha256": "11bd16a3367ff20faafbeff13d21ba75a084c595b7efc2c00970827c82a63020",
+   "sha256": "8264a4076f13cdd00ac8f034bd53305ce3ec76bdb84c2739c5d38da77d619e18",
    "signed": false
   },
   {
