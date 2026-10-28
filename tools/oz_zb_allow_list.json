@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-28T01:28:23Z",
+ "generated": "2026-10-28T03:50:42Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -303,7 +303,7 @@
    "item": "RVV+Viewpoint (WIP)",
    "mod_id": "RVV+Viewpoint",
    "jar": "mods/RVV+Viewpoint/42/media/java/client/RVVViewpointCompat.jar",
-   "sha256": "8d4d09dab188dbfdb23c6b9d8c3189d44191cf17fb05b9f9b837a38f88cd7d82",
+   "sha256": "7fa4602f289d9d2130f6ed1461cef8871db5a7c44cb0451db83848e21b3a32cf",
    "signed": false
   },
   {
