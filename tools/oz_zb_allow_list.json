@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-28T19:27:32Z",
+ "generated": "2026-10-28T19:33:49Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -247,7 +247,7 @@
    "item": "Project Viewpoint QOL",
    "mod_id": "ProjectViewpointQOL",
    "jar": "mods/ProjectViewpointQOL/42/media/java/client/ProjectViewpointQOL.jar",
-   "sha256": "26669d01b6b2ae9c5d39c55e047b22f20778b1defc9ce463eee6ff6b2296b603",
+   "sha256": "059f5a1b5efa8712186924f6a266f44be17dcbaf5d5eee84c8211a6a1e741f7a",
    "signed": false
   },
   {
@@ -327,7 +327,7 @@
    "item": "Viewpoint - 3D Military Armory [B42.21] [WIP]",
    "mod_id": "DeadWorksGunRacks",
    "jar": "mods/DeadWorksGunRacks/42/media/java/DeadWorksGunRacks.jar",
-   "sha256": "29a87944710a0da819ff6b8cf84e7330741ef845476462ef83b178635fa83866",
+   "sha256": "7a51c494725307e1ea5da1743f06e45df789ccc0ad2ae1f377b90f4401b8b483",
    "signed": false
   },
   {
