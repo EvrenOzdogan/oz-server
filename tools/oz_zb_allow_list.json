@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-27T23:55:56Z",
+ "generated": "2026-10-28T00:06:44Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -123,16 +123,8 @@
    "signed": false
   },
   {
-   "workshop_id": "3820563040",
-   "item": "Oz Division Shaders",
-   "mod_id": "OzPhoton",
-   "jar": "mods/OzPhoton/42/media/java/client/OzPhoton.jar",
-   "sha256": "288f6d9992f360ca83a5f6a8b30078202d2997154e5d21addbe3c0262269fe7a",
-   "signed": false
-  },
-  {
    "workshop_id": "3819476262",
-   "item": "Oz Fast Boot (skip the intro logos)",
+   "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
    "sha256": "7517e6a4fc0fe098730580b1d4bd988d1973789e915ee631682fd0d2f82d87cf",
@@ -140,15 +132,23 @@
   },
   {
    "workshop_id": "3820178016",
-   "item": "Oz NYC Facades",
+   "item": "Oz's NYC Facades (building skins, roofs, towers)",
    "mod_id": "OzNYCFacades",
    "jar": "mods/OzNYCFacades/42/media/java/client/OzNYCFacades.jar",
    "sha256": "a909af7ebb035e6759c5b51a45439b0db5cd6316ec444038a3aecd66b8093c7d",
    "signed": false
   },
   {
+   "workshop_id": "3820563040",
+   "item": "Oz's Photon Shaders (Division look)",
+   "mod_id": "OzPhoton",
+   "jar": "mods/OzPhoton/42/media/java/client/OzPhoton.jar",
+   "sha256": "288f6d9992f360ca83a5f6a8b30078202d2997154e5d21addbe3c0262269fe7a",
+   "signed": false
+  },
+  {
    "workshop_id": "3819445594",
-   "item": "Oz Server Pack",
+   "item": "Oz's Server Pack (menu, spawn hall, traders, HUD)",
    "mod_id": "OzServerPack",
    "jar": "mods/OzServerPack/42/media/java/OzServerPack.jar",
    "sha256": "238fb2604c067390900dc157eda2238c6f06e6886e6957970e2dab5ca1d7a3ea",
