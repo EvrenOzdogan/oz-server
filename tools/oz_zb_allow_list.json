@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-28T09:48:20Z",
+ "generated": "2026-10-28T12:54:18Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz's NYC Facades (building skins, roofs, towers)",
    "mod_id": "OzNYCFacades",
    "jar": "mods/OzNYCFacades/42/media/java/client/OzNYCFacades.jar",
-   "sha256": "47599cfc050dbbb320aae01c336168909ec30a7c05d27471e1437282a2491d37",
+   "sha256": "80424a70ea5d720d202628c6b46ad6e5c7a979177f3ff5f7f8fa104c9243c0fe",
    "signed": false
   },
   {
