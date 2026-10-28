@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-28T06:05:23Z",
+ "generated": "2026-10-28T09:48:20Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -127,7 +127,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "f7d95cb4c953610239681d37b57d699bc730a00e6bb191e09951a522546a074c",
+   "sha256": "1f0b1d301202a7c5a01374dec6d2c45addfc25d770f5446cd6bc180f3c44fedb",
    "signed": false
   },
   {
@@ -135,7 +135,7 @@
    "item": "Oz's NYC Facades (building skins, roofs, towers)",
    "mod_id": "OzNYCFacades",
    "jar": "mods/OzNYCFacades/42/media/java/client/OzNYCFacades.jar",
-   "sha256": "a909af7ebb035e6759c5b51a45439b0db5cd6316ec444038a3aecd66b8093c7d",
+   "sha256": "47599cfc050dbbb320aae01c336168909ec30a7c05d27471e1437282a2491d37",
    "signed": false
   },
   {
@@ -236,7 +236,7 @@
   },
   {
    "workshop_id": "3810179295",
-   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42.21.0] [SP/MP]",
+   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42.21/42.22] [SP/MP]",
    "mod_id": "aparosa_pz3dMinimap",
    "jar": "mods/pz3dMinimap/42/media/java/pz3dMinimap.jar",
    "sha256": "f975e0ae5876d42837ef3ecc63efa182d4f636c5a188be32f24fb0c25a7eb233",
@@ -303,7 +303,7 @@
    "item": "RVV+Viewpoint (WIP)",
    "mod_id": "RVV+Viewpoint",
    "jar": "mods/RVV+Viewpoint/42/media/java/client/RVVViewpointCompat.jar",
-   "sha256": "7fa4602f289d9d2130f6ed1461cef8871db5a7c44cb0451db83848e21b3a32cf",
+   "sha256": "8d4d09dab188dbfdb23c6b9d8c3189d44191cf17fb05b9f9b837a38f88cd7d82",
    "signed": false
   },
   {
