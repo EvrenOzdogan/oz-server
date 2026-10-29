@@ -31,6 +31,10 @@ Viewpoint's own graphics settings are NOT done here: the optional oz-viewpoint-s
 on the Oz site (or the OzFastBoot preset) handles those.
 
 Close Project Zomboid first.
+Memory tiers (picked from RAM and VRAM; only LOWERS your values): also edits Zomboid\viewpoint-live.properties
+(memory.packMiB/shellMiB/floorMiB/cpuCacheMiB/nearMeshMiB/farMiB/minecraftMiB) plus -XX:SoftMaxHeapSize and
+-XX:+UseStringDeduplication in ProjectZomboid64.json. Backed up and restored by --undo like the rest.
+
 Usage:  python oz_pc_tune.py [--dry-run] [--auto-hdr-off] [--steam-dir DIR]
         python oz_pc_tune.py --undo [BACKUP_FOLDER]     (default: the newest backup)
 """
@@ -164,6 +168,107 @@ def steam_launch_options(roots):
     return found
 
 
+# ---------- memory tiers ----------
+VP_FILE = os.path.join(HOME, 'Zomboid', 'viewpoint-live.properties')
+# caps in MiB for the top tier (basis: owner's 32 GB / 16 GB VRAM PC, p302 memory_plan.md)
+TOP_CAPS = {'memory.packMiB': 1280, 'memory.shellMiB': 2048, 'memory.floorMiB': 1536,
+            'memory.cpuCacheMiB': 512, 'memory.nearMeshMiB': 896, 'memory.farMiB': 512}
+MC_CAPS = {'high': 2048, 'mid': 1792, 'low': 1536}   # Photon pool is ~1.4 GB fixed; never cut below it
+TIERS = {  # name: (scale, xmx cap GB or None, soft max GB)
+    'high': (1.0, None, 6), 'mid': (0.6, 6, 5), 'low': (0.4, 5, 4)}
+
+
+def pick_tier(ram_gb, vram_gb):
+    if ram_gb < 13 or vram_gb <= 6.5:
+        return 'low'
+    if ram_gb < 30 or vram_gb < 11.5:
+        return 'mid'
+    return 'high'
+
+
+def tier_caps(tier):
+    sc = TIERS[tier][0]
+    d = {k: int(round(v * sc / 16.0)) * 16 for k, v in TOP_CAPS.items()}
+    d['memory.minecraftMiB'] = MC_CAPS[tier]
+    return d
+
+
+def vram_gb():
+    """VRAM in GB: nvidia-smi, else WMI AdapterRAM (saturates at 4 GB), else assume 8."""
+    try:
+        r = subprocess.run(['nvidia-smi', '--query-gpu=memory.total', '--format=csv,noheader,nounits'],
+                           capture_output=True, text=True, timeout=20)
+        v = [float(x) for x in r.stdout.split() if re.fullmatch(r'\d+(\.\d+)?', x)]
+        if v:
+            return max(v) / 1024, 'nvidia-smi'
+    except Exception:
+        pass
+    try:
+        r = subprocess.run(['powershell', '-NoProfile', '-Command',
+                            '(Get-CimInstance Win32_VideoController).AdapterRAM -join "|"'],
+                           capture_output=True, text=True, timeout=30)
+        v = [int(x) for x in r.stdout.strip().split('|') if x.strip().isdigit()]
+        if v and 0 < max(v) < 4290000000:   # 32-bit field saturates near 4 GB: not trustworthy
+            return max(v) / (1 << 30), 'WMI'
+    except Exception:
+        pass
+    return 8.0, 'assumed'
+
+
+def props_plan(txt, caps):
+    """Return (new_text, rows[(key, now, target, lowered)]). Only lowers; missing keys are added."""
+    lines = txt.split('\n') if txt else []
+    rows = []
+    for k, t in caps.items():
+        idx = next((i for i, l in enumerate(lines) if re.match(r'\s*' + re.escape(k) + r'\s*[=:]', l)), None)
+        cur = None
+        if idx is not None:
+            m = re.match(r'\s*[^=:]+[=:]\s*(\d+)\s*$', lines[idx])
+            cur = int(m.group(1)) if m else None
+            if cur is None:        # non-numeric value: leave it alone
+                rows.append((k, lines[idx].split('=', 1)[-1].strip(), t, False))
+                continue
+        if cur is not None and cur <= t:
+            rows.append((k, cur, t, False))
+            continue
+        if idx is None:
+            while lines and lines[-1] == '':
+                lines.pop()
+            lines.append(f'{k}={t}')
+        else:
+            lines[idx] = f'{k}={t}'
+        rows.append((k, cur, t, True))
+    return '\n'.join(lines).rstrip('\n') + '\n', rows
+
+
+def java_edit(txt, xmx_cap, soft):
+    """Lower -Xmx to xmx_cap GB if above; add/lower SoftMaxHeapSize (<= Xmx); add UseStringDeduplication."""
+    m = re.search(r'"-Xmx(\w+)"', txt)
+    if not m:
+        return None
+    xmx = m.group(1)
+    if xmx_cap is not None and (gb(xmx) or 0) > xmx_cap:
+        xmx = f'{xmx_cap}g'
+    soft = min(soft, int(gb(xmx) or soft))
+    tok = f'"-Xmx{xmx}"'
+    out = txt[:m.start()] + tok + txt[m.end():]
+    ls = out.rfind('\n', 0, out.index(tok)) + 1
+    pad = '\n' + re.match(r'[ \t]*', out[ls:]).group(0)
+    add = ''
+    ms = re.search(r'"-XX:SoftMaxHeapSize=(\w+)"', out)
+    if ms:
+        if (gb(ms.group(1)) or 0) > soft:
+            out = out[:ms.start()] + f'"-XX:SoftMaxHeapSize={soft}g"' + out[ms.end():]
+    else:
+        add += f',{pad}"-XX:SoftMaxHeapSize={soft}g"'
+    if '-XX:+UseStringDeduplication' not in out:
+        add += f',{pad}"-XX:+UseStringDeduplication"'
+    if add:
+        e = out.index(tok) + len(tok)
+        out = out[:e] + add + out[e:]
+    return out
+
+
 # ---------- plan ----------
 def heap_reco(ram):
     if ram >= 30:
@@ -190,7 +295,17 @@ def build_plan(a):
     game = find_game(libs)
     admin = is_admin()
 
-    # 1 heap
+    # 0 memory tier
+    vram, vsrc = vram_gb()
+    tier = pick_tier(ram, vram)
+    _, xcap, soft = TIERS[tier]
+    rows.append(('Memory tier', f'{ram:.0f} GB RAM, {vram:.0f} GB VRAM ({vsrc})', tier, 'info',
+                 'chosen from RAM and VRAM; only ever lowers your own settings'))
+    if tier == 'low':
+        rows.append(('HD texture packs', 'PZHDWalls / PZHDTerrain', 'optional', 'info',
+                     'WARNING: the HD texture packs use ~2.8 GB of VRAM and are optional; unsubscribe them if the game stutters or crashes'))
+
+    # 1 heap (+ soft max + string dedup)
     reco, note = heap_reco(ram)
     if not game:
         rows.append(('Java heap (-Xmx)', 'game not found', '-', 'skip', 'Project Zomboid not found in any Steam library'))
@@ -198,17 +313,43 @@ def build_plan(a):
         jpath = os.path.join(game, 'ProjectZomboid64.json')
         txt = open(jpath, encoding='utf-8').read()
         m = re.search(r'"-Xmx(\w+)"', txt)
-        cur = m.group(1) if m else None
         why = f'{ram:.0f} GB RAM. {note}'.strip()
-        if not reco:
-            rows.append(('Java heap (-Xmx)', cur or 'none', '-', 'skip', why))
-        elif cur and gb(cur) is not None and gb(cur) >= gb(reco):
-            rows.append(('Java heap (-Xmx)', '-Xmx' + cur, '-Xmx' + reco, 'already set', why + ' (yours is as big or bigger; kept)'))
-        elif not m:
-            rows.append(('Java heap (-Xmx)', 'no -Xmx line', '-Xmx' + reco, 'skip', 'no -Xmx in the json; not editing an unknown layout'))
+        if not m:
+            rows.append(('Java heap (-Xmx)', 'no -Xmx line', '-', 'skip', 'no -Xmx in the json; not editing an unknown layout'))
         else:
-            rows.append(('Java heap (-Xmx)', '-Xmx' + cur, '-Xmx' + reco, 'change', why))
-            acts.append(dict(kind='file', path=jpath, new=txt[:m.start()] + f'"-Xmx{reco}"' + txt[m.end():]))
+            cur = m.group(1)
+            base = txt
+            newx = cur
+            if reco and gb(cur) is not None and gb(cur) < gb(reco):   # existing logic: raise to the RAM recommendation
+                newx = reco
+            if xcap and (gb(newx) or 0) > xcap:                         # tier cap: lower only
+                newx = f'{xcap}g'
+            if newx != cur:
+                base = txt[:m.start()] + f'"-Xmx{newx}"' + txt[m.end():]
+                rows.append(('Java heap (-Xmx)', '-Xmx' + cur, '-Xmx' + newx, 'change', why))
+            else:
+                rows.append(('Java heap (-Xmx)', '-Xmx' + cur, '-Xmx' + cur, 'already set',
+                             why + ' (kept)' if reco or xcap else why))
+            out = java_edit(base, xcap, soft)
+            ms = re.search(r'SoftMaxHeapSize=(\w+)', txt)
+            smt = min(soft, int(gb(newx) or soft))
+            sch = (not ms) or (gb(ms.group(1)) or 0) > smt
+            rows.append(('Java SoftMaxHeapSize', ms.group(1) if ms else 'not set', f'{smt}g',
+                         'change' if sch else 'already set', 'GC aims below this and returns RAM to Windows; the hard cap stays -Xmx'))
+            sd = '-XX:+UseStringDeduplication' in txt
+            rows.append(('Java StringDeduplication', 'on' if sd else 'off', 'on', 'already set' if sd else 'change',
+                         'saves 0.1-0.3 GB of live strings (bundled Java 25 supports both flags)'))
+            if out != txt:
+                acts.append(dict(kind='file', path=jpath, new=out))
+
+    # 1b Viewpoint memory caps
+    old = open(VP_FILE, encoding='utf-8', errors='replace').read() if os.path.isfile(VP_FILE) else ''
+    ntxt, prow = props_plan(old, tier_caps(tier))
+    for k, cur, t, low in prow:
+        rows.append((k, 'not set (default)' if cur is None else cur, t, 'change' if low else 'already set',
+                     'cap on a Viewpoint pool (MiB); lowered only; applied at next game start'))
+    if any(r[3] for r in prow):
+        acts.append(dict(kind='file', path=VP_FILE, new=ntxt, create=not os.path.isfile(VP_FILE)))
 
     # 2 windows
     if winreg:
@@ -302,7 +443,9 @@ def apply(acts):
     os.makedirs(bdir)
     man = []
     for i, a in enumerate(acts):  # back up everything first
-        if a['kind'] == 'file':
+        if a['kind'] == 'file' and a.get('create'):
+            man.append(dict(kind='file', path=a['path'], backup=None))
+        elif a['kind'] == 'file':
             dst = os.path.join(bdir, f'{i}_' + os.path.basename(a['path']))
             shutil.copy2(a['path'], dst)
             man.append(dict(kind='file', path=a['path'], backup=dst))
@@ -316,6 +459,7 @@ def apply(acts):
     json.dump(man, open(os.path.join(bdir, 'manifest.json'), 'w'), indent=1)
     for a in acts:
         if a['kind'] == 'file':
+            os.makedirs(os.path.dirname(a['path']), exist_ok=True)
             with open(a['path'], 'w', encoding='utf-8', newline='') as f:
                 f.write(a['new'])
         else:
@@ -334,7 +478,11 @@ def undo(path):
     if game_running():
         sys.exit('Close Project Zomboid first.')
     for m in man:
-        if m['kind'] == 'file':
+        if m['kind'] == 'file' and m['backup'] is None:
+            if os.path.isfile(m['path']):
+                os.remove(m['path'])
+            print('  removed (did not exist before)', m['path'])
+        elif m['kind'] == 'file':
             shutil.copy2(m['backup'], m['path'])
             print('  restored', m['path'])
         else:
@@ -365,6 +513,8 @@ def main():
         sys.exit('Windows only.')
     if a.undo is not None:
         return undo(a.undo or None)
+    if not a.dry_run and game_running():
+        sys.exit('Close Project Zomboid first, then run again.')
     rows, acts, game = build_plan(a)
     print_table(rows)
     nip_here = os.path.isfile(os.path.join(os.path.dirname(os.path.abspath(__file__)), NIP))
