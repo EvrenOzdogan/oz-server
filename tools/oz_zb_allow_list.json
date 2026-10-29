@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-29T01:45:37Z",
+ "generated": "2026-10-29T01:47:59Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz's NYC Facades (building skins, roofs, towers)",
    "mod_id": "OzNYCFacades",
    "jar": "mods/OzNYCFacades/42/media/java/client/OzNYCFacades.jar",
-   "sha256": "3263d3c1d4b18d4faaddb2dd19e9489e2285239b80a43a6ea50cbead74618d94",
+   "sha256": "5fec781b57e27358c7a31dd8fbe4a2a25be61fb03fbd1c6ac1b6066991990302",
    "signed": false
   },
   {
@@ -459,6 +459,22 @@
    "signed": false
   },
   {
+   "workshop_id": "3828842183",
+   "item": "Viewpoint GPU Memory Fix",
+   "mod_id": "ViewpointGpuMemoryFix",
+   "jar": "mods/ViewpointGpuMemoryFix/42/media/java/client/ViewpointGpuMemoryFix.jar",
+   "sha256": "b860aa11a705c771a1eda8dc8dfed1cb03d9db3332a550456be317a66fe8e3d8",
+   "signed": false
+  },
+  {
+   "workshop_id": "3822818373",
+   "item": "Viewpoint Perfomance",
+   "mod_id": "ViewpointPerf",
+   "jar": "mods/ViewpointPerf/42/media/java/client/ViewpointPerf.jar",
+   "sha256": "33e36963d05c13a2b9f3eea9da1e7053ef5c9278136efefba6e992040fda5a68",
+   "signed": false
+  },
+  {
    "workshop_id": "3816521966",
    "item": "Viewpoint Placement Fix",
    "mod_id": "ViewpointPlacementFix",
@@ -528,6 +544,14 @@
    "mod_id": "VRAMSteady",
    "jar": "mods/VRAMSteady/42/media/java/client/VRAMSteady.jar",
    "sha256": "321e923cd4878719b94f37de3a20a88885496a5506e1d3a46d6dcedb8b0c5b40",
+   "signed": false
+  },
+  {
+   "workshop_id": "3820609079",
+   "item": "Wall Texture Fix for Viewpoint",
+   "mod_id": "WallTextureFixForViewpoint",
+   "jar": "mods/WallTextureFixForViewpoint/42/media/java/client/WallTextureFixForViewpoint.jar",
+   "sha256": "08e4532d157625757b97d5315772a0721d8bb02b5b6e58fc307e008d202c4703",
    "signed": false
   },
   {
