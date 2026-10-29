@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-29T12:53:20Z",
+ "generated": "2026-10-29T13:55:19Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -452,10 +452,10 @@
   },
   {
    "workshop_id": "3828842183",
-   "item": "Viewpoint GPU Memory Fix",
+   "item": "Viewpoint GPU Fix",
    "mod_id": "ViewpointGpuMemoryFix",
-   "jar": "mods/ViewpointGpuMemoryFix/42/media/java/client/ViewpointGpuMemoryFix.jar",
-   "sha256": "b860aa11a705c771a1eda8dc8dfed1cb03d9db3332a550456be317a66fe8e3d8",
+   "jar": "mods/ViewpointGpuFix/42/media/java/client/ViewpointGpuFix.jar",
+   "sha256": "050cadf60e493adc1057c97df18f94b533f8e8aeb6e25e56cb7a502579d98c9e",
    "signed": false
   },
   {
