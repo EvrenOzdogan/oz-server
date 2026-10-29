@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-29T15:45:38Z",
+ "generated": "2026-10-29T22:25:38Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -23,7 +23,7 @@
    "item": "[B42] Knox Inventory - Tarkov-style UI Overhaul",
    "mod_id": "KnoxInventoryBeta",
    "jar": "mods/KnoxInventoryBeta/42/media/java/client/KnoxInventoryJava.jar",
-   "sha256": "fd6834d9fa62ca557eb62f6dfcc618b59e5a3896421d106fea8bcca8d06bcd7c",
+   "sha256": "21d1b227269eb18b721c58868003198bc9cea6aad930784f6aa8f78d829b8097",
    "signed": false
   },
   {
@@ -148,7 +148,7 @@
   },
   {
    "workshop_id": "3820563040",
-   "item": "Oz's Photon Shaders (Division look)",
+   "item": "Oz's Photon Shaders (Viewpoint)",
    "mod_id": "OzPhoton",
    "jar": "mods/OzPhoton/42/media/java/client/OzPhoton.jar",
    "sha256": "288f6d9992f360ca83a5f6a8b30078202d2997154e5d21addbe3c0262269fe7a",
@@ -255,7 +255,7 @@
    "item": "Project Viewpoint QOL",
    "mod_id": "ProjectViewpointQOL",
    "jar": "mods/ProjectViewpointQOL/42/media/java/client/ProjectViewpointQOL.jar",
-   "sha256": "059f5a1b5efa8712186924f6a266f44be17dcbaf5d5eee84c8211a6a1e741f7a",
+   "sha256": "120d414aaf33d8aa1abbf1db3fd85a512fe3052c974354f832aa8cd45ec23ec4",
    "signed": false
   },
   {
@@ -455,7 +455,7 @@
    "item": "Viewpoint GPU Fix",
    "mod_id": "ViewpointGpuMemoryFix",
    "jar": "mods/ViewpointGpuFix/42/media/java/client/ViewpointGpuFix.jar",
-   "sha256": "050cadf60e493adc1057c97df18f94b533f8e8aeb6e25e56cb7a502579d98c9e",
+   "sha256": "805f5bbfdd1bff7d94712557264b9a52ad4d6e5f0d9010772480d737dc9f9cd6",
    "signed": false
   },
   {
