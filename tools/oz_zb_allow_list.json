@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-29T01:47:59Z",
+ "generated": "2026-10-29T04:53:38Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -67,6 +67,14 @@
    "signed": false
   },
   {
+   "workshop_id": "3825724093",
+   "item": "DeadWorks Vehicle Framework [B42.21]",
+   "mod_id": "DeadWorksVehicleFramework",
+   "jar": "mods/DeadWorksVehicleFramework/42/media/java/DeadWorksVehicleFramework.jar",
+   "sha256": "6c484b3dc7f405c62b74380ca30e17355a914d6d95a898a023f26365dfcf47d1",
+   "signed": false
+  },
+  {
    "workshop_id": "3812151347",
    "item": "Door Fix - Project Viewpoint",
    "mod_id": "ViewpointDoor",
@@ -127,7 +135,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "59911c49b40c5f256788b8af9b4fe7d49c84502130db280248ccf532aca0d2e5",
+   "sha256": "28353b13503f3960292930f260a3ca7b30edbf25bd94c1ae318c4f6a1cfd8896",
    "signed": false
   },
   {
@@ -320,22 +328,6 @@
    "mod_id": "DeadWorksGunRacks",
    "jar": "mods/DeadWorksGunRacks/42/media/java/DeadWorksGunRacks.jar",
    "sha256": "7a51c494725307e1ea5da1743f06e45df789ccc0ad2ae1f377b90f4401b8b483",
-   "signed": false
-  },
-  {
-   "workshop_id": "3820158673",
-   "item": "Viewpoint - 3D RVs [B42.21] [WIP]",
-   "mod_id": "GridRV",
-   "jar": "mods/GridRV/42/media/java/client/GridRV.jar",
-   "sha256": "f47c694f72d6fd6ba8be4102ebfed05c804c15d45916550a98a7e6a9a8939a5a",
-   "signed": false
-  },
-  {
-   "workshop_id": "3820158673",
-   "item": "Viewpoint - 3D RVs [B42.21] [WIP]",
-   "mod_id": "GridRVHost",
-   "jar": "mods/GridRVHost/42/media/java/server/GridRVHost.jar",
-   "sha256": "3e3c603c3790c04448ad6b64161021b419407f0687152e1bcf7aff0089c01b01",
    "signed": false
   },
   {
