@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-29T00:41:55Z",
+ "generated": "2026-10-29T01:45:37Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -127,7 +127,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "c7ae2fcdb0e58c3156d788d52d49adf65852474371431417a0058bb45f238c81",
+   "sha256": "59911c49b40c5f256788b8af9b4fe7d49c84502130db280248ccf532aca0d2e5",
    "signed": false
   },
   {
@@ -313,14 +313,6 @@
    "jar": "mods/ShootToThrillMultiplayer/42/media/java/ISeeThem.jar",
    "sha256": "ea767ef9d0cd72740158503aa5215e66b06c38831990c4bd932af93a9c113015",
    "signed": false
-  },
-  {
-   "workshop_id": "3814398576",
-   "item": "Surface Fix - Project Viewpoint",
-   "mod_id": "ViewpointSurface",
-   "jar": "mods/ViewpointSurface/42/media/java/client/ViewpointInteriorSurfaces.jar",
-   "sha256": "6827e2cfb215acd388385d6c72b7801ff9dfb9c200aa2a19e171bed02f1000e2",
-   "signed": true
   },
   {
    "workshop_id": "3824826320",
