@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-29T13:55:19Z",
+ "generated": "2026-10-29T14:21:02Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -127,7 +127,7 @@
    "item": "Night Vision RABS (Viewpoint)",
    "mod_id": "RNVTs",
    "jar": "mods/RNVTs/42/media/java/client/RNVTs.jar",
-   "sha256": "e04d86bc61494d9be32dd0469ebb8afb4dd3dc3d18b80f43bf56e711b606c09e",
+   "sha256": "92fc9baa9ecb81451475fda24e85586c48f865f67e681678281c5c0a06332aa5",
    "signed": false
   },
   {
