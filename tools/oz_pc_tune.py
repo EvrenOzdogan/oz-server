@@ -20,7 +20,7 @@ There is no flag that skips the YES question. --dry-run prints the table and cha
 
 Why each setting (measured on our own PC, RTX 5070 Ti / 32 GB, modded Oz Server):
   Heap: the modded server's heap use peaked near 10.5 GB. Below about 11 GB the JVM thrashes in GC
-        (freezes of many seconds). So: 32 GB RAM -> 12g, 24 GB -> 10g (tight), 16 GB -> 8g (expect
+        (freezes of many seconds). So: 32 GB RAM -> 12g, 24 GB -> 10g (tight) [now capped at 8g for every tier: live set is only 3.5-4.4 GB], 16 GB -> 8g (expect
         stutter and long freezes in the city; 16 GB PCs will struggle). Under 16 GB: no change.
         A Steam "Verify integrity of game files" resets ProjectZomboid64.json; run this again after.
   GPU scheduling (HAGS): the GPU manages its own queue; less CPU stall on the render thread.
@@ -175,7 +175,7 @@ TOP_CAPS = {'memory.packMiB': 1280, 'memory.shellMiB': 2048, 'memory.floorMiB': 
             'memory.cpuCacheMiB': 512, 'memory.nearMeshMiB': 896, 'memory.farMiB': 512}
 MC_CAPS = {'high': 2048, 'mid': 1792, 'low': 1536}   # Photon pool is ~1.4 GB fixed; never cut below it
 TIERS = {  # name: (scale, xmx cap GB or None, soft max GB)
-    'high': (1.0, None, 6), 'mid': (0.6, 6, 5), 'low': (0.4, 5, 4)}
+    'high': (1.0, 8, 6), 'mid': (0.6, 6, 5), 'low': (0.4, 5, 4)}
 
 
 def pick_tier(ram_gb, vram_gb):
