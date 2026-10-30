@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-29T23:25:50Z",
+ "generated": "2026-10-30T09:35:09Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "4f7ccad06a2df1a7017e4509f7353280ceeac48e406c9d7c9ded0909a50cc14a",
+   "sha256": "8ad383f59b334b0e4b1f44f40c301280eee373cc12df802cc7a2b3327ebfc166",
    "signed": false
   },
   {
@@ -151,7 +151,7 @@
    "item": "Oz's Photon Shaders (Viewpoint)",
    "mod_id": "OzPhoton",
    "jar": "mods/OzPhoton/42/media/java/client/OzPhoton.jar",
-   "sha256": "288f6d9992f360ca83a5f6a8b30078202d2997154e5d21addbe3c0262269fe7a",
+   "sha256": "f0e67589160168d7073f4172d95b97db827299337560d99dee3bdc12eb352d90",
    "signed": false
   },
   {
@@ -384,14 +384,6 @@
    "mod_id": "ViewpointRightClick",
    "jar": "mods/ViewpointRightClick/42/media/java/client/ViewpointRightClick.jar",
    "sha256": "b90ea0b1f26f947062e5595712bf5f957bb916e10d1de31445c4fd13b3a13679",
-   "signed": false
-  },
-  {
-   "workshop_id": "3816784011",
-   "item": "Viewpoint - Smooth Frames",
-   "mod_id": "ViewpointSmoothFrames",
-   "jar": "mods/ViewpointSmoothFrames/42/media/java/client/SmoothFrames.jar",
-   "sha256": "7f77ae15693e400d60da8e3e0e1082f92129fa5bf404beb3fa01a3ad17fce84a",
    "signed": false
   },
   {
