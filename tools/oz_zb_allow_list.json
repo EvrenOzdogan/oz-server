@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-10-30T09:35:09Z",
+ "generated": "2026-10-30T17:07:24Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "8ad383f59b334b0e4b1f44f40c301280eee373cc12df802cc7a2b3327ebfc166",
+   "sha256": "77cb62b47f7d744ba03aa96316cf325ca9bfe7c534ee4ba71e70b2b95f048bf7",
    "signed": false
   },
   {
@@ -207,7 +207,7 @@
    "item": "Project Viewpoint - Isometric No More",
    "mod_id": "isometricnomore",
    "jar": "mods/isometricnomore/42/media/java/client/IsometricNoMore.jar",
-   "sha256": "45c7a64cea1a8073459a1b67767055f0d40712c864a45601981fc40ff622e774",
+   "sha256": "2c0beb57b74b42bae546c1ffab3fcdc885ff48a7f533399f7d822c25c096b06d",
    "signed": false
   },
   {
@@ -271,7 +271,7 @@
    "item": "Project Viewpoint: KK's TREE in 3D （Animated & Seasonal）",
    "mod_id": "ProjectViewpointNearVegetation",
    "jar": "mods/ProjectViewpointNearVegetation/42/media/java/client/ProjectViewpointNearVegetation.jar",
-   "sha256": "bf931580d8ba82b998b3b53476043dd9db8ecd58341895fda5f91ac55d76b903",
+   "sha256": "c940e659103e3cb67e421488878ef886cb6921e9ffa12a972767de642bf0e6c7",
    "signed": false
   },
   {
@@ -311,7 +311,7 @@
    "item": "RVV+Viewpoint (WIP)",
    "mod_id": "RVV+Viewpoint",
    "jar": "mods/RVV+Viewpoint/42/media/java/client/RVVViewpointCompat.jar",
-   "sha256": "8d4d09dab188dbfdb23c6b9d8c3189d44191cf17fb05b9f9b837a38f88cd7d82",
+   "sha256": "d4f6e418d778f4037199d4bb1f5bdbf1cd976e8400e2eaecb993fa3171a247d5",
    "signed": false
   },
   {
