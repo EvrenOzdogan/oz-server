@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-02T11:26:28Z",
+ "generated": "2026-11-02T19:52:40Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "aae0df027d48fe85d8a9e7857e9ab7a026c444639724995c56b87c185a8d00b5",
+   "sha256": "e35ac79ffa25ee0ab12bc713c92f13625fc90b25843758568ae06c259fdbdb03",
    "signed": false
   },
   {
@@ -243,11 +243,19 @@
    "signed": false
   },
   {
+   "workshop_id": "3810179295",
+   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42.21/42.22] [SP/MP]",
+   "mod_id": "aparosa_pz3dMinimap",
+   "jar": "mods/pz3dMinimap/42/media/java/pz3dMinimap.jar",
+   "sha256": "f975e0ae5876d42837ef3ecc63efa182d4f636c5a188be32f24fb0c25a7eb233",
+   "signed": false
+  },
+  {
    "workshop_id": "3811256204",
    "item": "Project Viewpoint QOL",
    "mod_id": "ProjectViewpointQOL",
    "jar": "mods/ProjectViewpointQOL/42/media/java/client/ProjectViewpointQOL.jar",
-   "sha256": "120d414aaf33d8aa1abbf1db3fd85a512fe3052c974354f832aa8cd45ec23ec4",
+   "sha256": "0e8fa967491c945bb6add6df8a54b73558e38ccf9bc71a81d45aa58906b8efab",
    "signed": false
   },
   {
@@ -319,7 +327,7 @@
    "item": "Smooth Performance Optimizer",
    "mod_id": "SmoothPerformanceOptimizerErunestJava",
    "jar": "mods/SmoothPerformanceOptimizerErunestJava/42/media/java/SmoothPerformanceOptimizerErunestJava.jar",
-   "sha256": "1df90852ffc5e6f484694b12e0c346867ab49239590b3d9079369effd548b8fd",
+   "sha256": "c18d1e43cd0b930a2b9085a908fc30f16d9b20a8f62bce539b8c2c71a7992c23",
    "signed": true
   },
   {
