@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-02T19:52:40Z",
+ "generated": "2026-11-07T22:27:12Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -23,7 +23,7 @@
    "item": "[B42] Knox Inventory - Tarkov-style UI Overhaul",
    "mod_id": "KnoxInventoryBeta",
    "jar": "mods/KnoxInventoryBeta/42/media/java/client/KnoxInventoryJava.jar",
-   "sha256": "21d1b227269eb18b721c58868003198bc9cea6aad930784f6aa8f78d829b8097",
+   "sha256": "ef3a57e573acc2d467c575e60ac5d2c3eb1fb182985bedfc6339f68367ac54e1",
    "signed": false
   },
   {
@@ -71,16 +71,8 @@
    "item": "DeadWorks Vehicle Framework [B42.21]",
    "mod_id": "DeadWorksVehicleFramework",
    "jar": "mods/DeadWorksVehicleFramework/42/media/java/DeadWorksVehicleFramework.jar",
-   "sha256": "6c484b3dc7f405c62b74380ca30e17355a914d6d95a898a023f26365dfcf47d1",
+   "sha256": "19b627aa8d6cb599d8d811e718f61be9db5c118216c796324972aa3826994f39",
    "signed": false
-  },
-  {
-   "workshop_id": "3812151347",
-   "item": "Door Fix - Project Viewpoint",
-   "mod_id": "ViewpointDoor",
-   "jar": "mods/ViewpointDoor/42/media/java/client/ViewpointDoorLighting.jar",
-   "sha256": "6b13cf9f087d9fd4a1ba845001b9cb4e9462e7c7568fe5213e0e2975a964df7f",
-   "signed": true
   },
   {
    "workshop_id": "3819976507",
@@ -91,28 +83,12 @@
    "signed": false
   },
   {
-   "workshop_id": "3816586790",
-   "item": "Immersive Snow - Viewpoint",
-   "mod_id": "ImmersiveSnowViewpoint",
-   "jar": "mods/ImmersiveSnowViewpoint/42/media/java/client/ImmersiveSnowVP.jar",
-   "sha256": "9dfb2fa6d4ebe25d0bad5c385d956e7122736976f525a5b7d7f5b1346055b4bf",
-   "signed": false
-  },
-  {
    "workshop_id": "3823984682",
    "item": "Level Furniture (Viewpoint)",
    "mod_id": "LevelFurniture",
    "jar": "mods/LevelFurniture/42/media/java/client/LevelFurniture.jar",
    "sha256": "6ee1a524184fc818a16e293276167b3459220cb75a9878d810d010b6036d6087",
    "signed": false
-  },
-  {
-   "workshop_id": "3811344119",
-   "item": "Light Fix - Project Viewpoint",
-   "mod_id": "ViewpointLight",
-   "jar": "mods/ViewpointLight/42/media/java/client/ViewpointHeadlightPlacement.jar",
-   "sha256": "7d3826027b16186138137ffc8519493c75b025de906083d4e029bbd942dcd770",
-   "signed": true
   },
   {
    "workshop_id": "3818108839",
@@ -127,7 +103,7 @@
    "item": "Night Vision RABS (Viewpoint)",
    "mod_id": "RNVTs",
    "jar": "mods/RNVTs/42/media/java/client/RNVTs.jar",
-   "sha256": "92fc9baa9ecb81451475fda24e85586c48f865f67e681678281c5c0a06332aa5",
+   "sha256": "0e3faa23f9bd7d9b28d431af638aac2f1a8481e4f47c507bd026bbe385bdc548",
    "signed": false
   },
   {
@@ -135,7 +111,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "e35ac79ffa25ee0ab12bc713c92f13625fc90b25843758568ae06c259fdbdb03",
+   "sha256": "730498cbcb8b7f64b808cf12c7e88ee0d82dad0a26d79135c11f2ea69ffcf77c",
    "signed": false
   },
   {
@@ -187,30 +163,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3820462383",
-   "item": "Project Viewpoint - Actual Door Rattling",
-   "mod_id": "RealisticDoorImpacts",
-   "jar": "mods/RealisticDoorImpacts/42.21/media/java/client/RealisticDoorImpacts.jar",
-   "sha256": "8ddeeb7f7484912f2f30bc86cf918ee204f73981b10af08f57ba6fca99915597",
-   "signed": false
-  },
-  {
-   "workshop_id": "3817413313",
-   "item": "Project Viewpoint - Immersive Driving",
-   "mod_id": "ImmersiveDriving",
-   "jar": "mods/ImmersiveDriving/42/media/java/client/ImmersiveDriving.jar",
-   "sha256": "98f342ffe2e083597055cafe51c19b19cb282763476e2db8a65b1d1e843a1647",
-   "signed": false
-  },
-  {
-   "workshop_id": "3819166046",
-   "item": "Project Viewpoint - Isometric No More",
-   "mod_id": "isometricnomore",
-   "jar": "mods/isometricnomore/42/media/java/client/IsometricNoMore.jar",
-   "sha256": "2c0beb57b74b42bae546c1ffab3fcdc885ff48a7f533399f7d822c25c096b06d",
-   "signed": false
-  },
-  {
    "workshop_id": "3815019204",
    "item": "Project Viewpoint - KI5 Vehicle Parts Fix",
    "mod_id": "ProjectViewpointKI5VehiclePartsFix",
@@ -255,7 +207,7 @@
    "item": "Project Viewpoint QOL",
    "mod_id": "ProjectViewpointQOL",
    "jar": "mods/ProjectViewpointQOL/42/media/java/client/ProjectViewpointQOL.jar",
-   "sha256": "0e8fa967491c945bb6add6df8a54b73558e38ccf9bc71a81d45aa58906b8efab",
+   "sha256": "785e3cd92555496a4db82940e5fd9ecb370b82103d3ddeb39ee4139374aaebc4",
    "signed": false
   },
   {
@@ -264,14 +216,6 @@
    "mod_id": "PV-modmapbakefix",
    "jar": "mods/PV-modmapbakefix/42/media/java/client/PV-modmapbakefix.jar",
    "sha256": "b1ac9475d1d506ca4f5498ca4e158612ee6f63d131d3ffe86986b25c6cd9ebe7",
-   "signed": false
-  },
-  {
-   "workshop_id": "3813172420",
-   "item": "Project Viewpoint: KK's TREE in 3D （Animated & Seasonal）",
-   "mod_id": "ProjectViewpointNearVegetation",
-   "jar": "mods/ProjectViewpointNearVegetation/42/media/java/client/ProjectViewpointNearVegetation.jar",
-   "sha256": "c940e659103e3cb67e421488878ef886cb6921e9ffa12a972767de642bf0e6c7",
    "signed": false
   },
   {
@@ -347,22 +291,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3812932905",
-   "item": "Viewpoint - Building Alignment Fix",
-   "mod_id": "ViewpointBuildingAlignment",
-   "jar": "mods/ViewpointBuildingAlignment/42/media/java/client/ViewpointBuildingAlignment.jar",
-   "sha256": "350f83f3789cd2b58b2bf009622dcdf59897e9ccb0d248c954106a9b7323b7ac",
-   "signed": false
-  },
-  {
-   "workshop_id": "3812659173",
-   "item": "Viewpoint - Crop Visibility Fix [B42.21]",
-   "mod_id": "ViewpointCropVisibility",
-   "jar": "mods/ViewpointCropVisibility/42/media/java/client/ViewpointCropVisibility.jar",
-   "sha256": "fdf9462745b0ce9e6ecffe25b03b98d0553b3b3dd95d23b65f605a6e648aa4ed",
-   "signed": false
-  },
-  {
    "workshop_id": "3812984535",
    "item": "Viewpoint - Immersive Effects",
    "mod_id": "ViewpointImmersiveEffects",
@@ -371,43 +299,11 @@
    "signed": false
   },
   {
-   "workshop_id": "3812616893",
-   "item": "Viewpoint - Interface",
-   "mod_id": "ViewpointUI",
-   "jar": "mods/ViewpointUI/42/media/java/client/ViewpointUI.jar",
-   "sha256": "8a8b7be4fa2c3179fc2aff5d0b6876f3576ef50215e66a192a5846f36eeab5e9",
-   "signed": false
-  },
-  {
-   "workshop_id": "3819018807",
-   "item": "Viewpoint - Right Click Fix",
-   "mod_id": "ViewpointRightClick",
-   "jar": "mods/ViewpointRightClick/42/media/java/client/ViewpointRightClick.jar",
-   "sha256": "b90ea0b1f26f947062e5595712bf5f957bb916e10d1de31445c4fd13b3a13679",
-   "signed": false
-  },
-  {
-   "workshop_id": "3820965001",
-   "item": "Viewpoint - Visceral",
-   "mod_id": "VisceralViewpoint",
-   "jar": "mods/Visceral/42/media/java/client/Visceral.jar",
-   "sha256": "08e5e24c1732e648afdf37c7f204cac2f136118716f27e8a52e1e2388c960c91",
-   "signed": false
-  },
-  {
    "workshop_id": "3812702301",
    "item": "Viewpoint Advanced Movement",
    "mod_id": "ViewpointAdvancedMovement",
    "jar": "mods/ViewpointAdvancedMovement/42/media/java/client/ViewpointAdvancedMovement.jar",
    "sha256": "a7a704ab5b2220e8cabecc518adb6034b3cba3dcba04163e886034ba176e44b0",
-   "signed": false
-  },
-  {
-   "workshop_id": "3822667831",
-   "item": "Viewpoint Audio Sync FIX",
-   "mod_id": "ViewpointAudioSync",
-   "jar": "mods/ViewpointAudioSync/42/media/java/client/ViewpointAudioSync.jar",
-   "sha256": "04b508c156d89a002d6693936c9955af00abd3b641c909da97a0226007e05854",
    "signed": false
   },
   {
@@ -435,43 +331,11 @@
    "signed": false
   },
   {
-   "workshop_id": "3817842243",
-   "item": "Viewpoint Fixes",
-   "mod_id": "ViewpointFixes",
-   "jar": "mods/ViewpointFixesV0.1.6a/42/media/java/client/ViewpointFixesV0.1.6a.jar",
-   "sha256": "5a24719696b60a3ddcfa857d5581da3684bb419e0f247ca5e83a067ca3d682ba",
-   "signed": false
-  },
-  {
-   "workshop_id": "3814994364",
-   "item": "Viewpoint Foraging",
-   "mod_id": "ViewpointForaging",
-   "jar": "mods/ViewpointForaging/42/media/java/client/ViewpointForaging.jar",
-   "sha256": "c6e5997d10cbf83e87399c9c24bd36f6bd7f21b07b934f8cd95963b808e1dce2",
-   "signed": false
-  },
-  {
    "workshop_id": "3828842183",
    "item": "Viewpoint GPU Fix",
    "mod_id": "ViewpointGpuMemoryFix",
    "jar": "mods/ViewpointGpuFix/42/media/java/client/ViewpointGpuFix.jar",
    "sha256": "e55cf9b5c9ebfa3cc74af79f40878f6ba134456d42f4d492088f561968c806bc",
-   "signed": false
-  },
-  {
-   "workshop_id": "3822818373",
-   "item": "Viewpoint Perfomance",
-   "mod_id": "ViewpointPerf",
-   "jar": "mods/ViewpointPerf/42/media/java/client/ViewpointPerf.jar",
-   "sha256": "33e36963d05c13a2b9f3eea9da1e7053ef5c9278136efefba6e992040fda5a68",
-   "signed": false
-  },
-  {
-   "workshop_id": "3816521966",
-   "item": "Viewpoint Placement Fix",
-   "mod_id": "ViewpointPlacementFix",
-   "jar": "mods/ViewpointPlacementFix/42/media/java/client/ViewpointPlacementFix.jar",
-   "sha256": "259d9ce6938c4c073502a5e48b5edeec886770981b1d127914e962e57b29d835",
    "signed": false
   },
   {
@@ -488,22 +352,6 @@
    "mod_id": "ViewpointTrueBallistics",
    "jar": "mods/ViewpointTrueBallistics/42/media/java/ViewpointTrueBallistics.jar",
    "sha256": "aaee2b68fd04aa516a388880cf000ef6e0775a5bdf30355a8d937048a16fea40",
-   "signed": false
-  },
-  {
-   "workshop_id": "3812559973",
-   "item": "Viewpoint Turbo - Light Performance Improvement [B42]",
-   "mod_id": "ViewpointTurbo",
-   "jar": "mods/ViewpointTurbo/42/media/java/client/ViewpointTurbo.jar",
-   "sha256": "90c55c23bc898a51d621c7648eaa22235696276554b85daaa4a3aa67b4e7d72b",
-   "signed": false
-  },
-  {
-   "workshop_id": "3821308495",
-   "item": "Viewpoint Visual Fixes",
-   "mod_id": "ViewpointVisualFixes",
-   "jar": "mods/ViewpointVisualFixes/42/media/java/client/ViewpointVisualFixes.jar",
-   "sha256": "24a1c84f25f9ea95e7a561701986ba2f2f3a49213aa452ac4837c63d4339dbd8",
    "signed": false
   },
   {
@@ -536,22 +384,6 @@
    "mod_id": "VRAMSteady",
    "jar": "mods/VRAMSteady/42/media/java/client/VRAMSteady.jar",
    "sha256": "321e923cd4878719b94f37de3a20a88885496a5506e1d3a46d6dcedb8b0c5b40",
-   "signed": false
-  },
-  {
-   "workshop_id": "3820609079",
-   "item": "Wall Texture Fix for Viewpoint",
-   "mod_id": "WallTextureFixForViewpoint",
-   "jar": "mods/WallTextureFixForViewpoint/42/media/java/client/WallTextureFixForViewpoint.jar",
-   "sha256": "08e4532d157625757b97d5315772a0721d8bb02b5b6e58fc307e008d202c4703",
-   "signed": false
-  },
-  {
-   "workshop_id": "3815166404",
-   "item": "|Mvdox Grass \"grass mods for viewpoint\" Unofficial mods|",
-   "mod_id": "Mvdox-Grass-v1",
-   "jar": "mods/mvdox-grass-v1/42/media/java/client/MvdoxGrassSeasonal.jar",
-   "sha256": "2b0a64972cb930db3651bb444ce90419bb94ce43c0ba461ab8538db741eeb5d6",
    "signed": false
   }
  ]
