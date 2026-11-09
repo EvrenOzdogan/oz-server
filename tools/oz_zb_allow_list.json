@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-09T10:54:14Z",
+ "generated": "2026-11-09T15:14:50Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -135,7 +135,7 @@
    "item": "Oz's Server Pack (menu, spawn hall, traders, HUD)",
    "mod_id": "OzServerPack",
    "jar": "mods/OzServerPack/42/media/java/OzServerPack.jar",
-   "sha256": "31c079e7e83e90ebb1622e8e435eaac63d839efe4a70c819c5b77f11f31f8c8a",
+   "sha256": "6c72d2364edc757141209d542c1f620f2dde8d9f69704658a2cedde9cea82cfd",
    "signed": false
   },
   {
@@ -188,7 +188,7 @@
   },
   {
    "workshop_id": "3813889000",
-   "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42.21.0] [SP/MP]",
+   "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42.22.2] [SP/MP]",
    "mod_id": "aparosa_pz3dBeams",
    "jar": "mods/pz3dBeams/42/media/java/pz3dBeams.jar",
    "sha256": "0fe99f60bd86f72f76de11bee43079ec7481c1579fe976bbdb89233d64441bff",
@@ -196,7 +196,7 @@
   },
   {
    "workshop_id": "3810179295",
-   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42.21/42.22] [SP/MP]",
+   "item": "Project Viewpoint Minimap (PZ3D Minimap) [B42.22.2] [SP/MP]",
    "mod_id": "aparosa_pz3dMinimap",
    "jar": "mods/pz3dMinimap/42/media/java/pz3dMinimap.jar",
    "sha256": "f975e0ae5876d42837ef3ecc63efa182d4f636c5a188be32f24fb0c25a7eb233",
