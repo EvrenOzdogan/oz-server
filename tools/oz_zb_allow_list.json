@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-09T17:40:10Z",
+ "generated": "2026-11-10T15:53:25Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -23,7 +23,7 @@
    "item": "[B42] Knox Inventory - Complete UI Overhaul",
    "mod_id": "KnoxInventoryBeta",
    "jar": "mods/KnoxInventoryBeta/42/media/java/client/KnoxInventoryJava.jar",
-   "sha256": "b37db7de42419737b8ecefc4003a2e5c0a182f10f1f1a990c0287b9567db9b00",
+   "sha256": "d1a2224f10118b7d5c61bf8749977b09fe40001e113f64b2dd3f550a956eaab2",
    "signed": false
   },
   {
@@ -67,14 +67,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3825724093",
-   "item": "DeadWorks Vehicle Framework [B42.21]",
-   "mod_id": "DeadWorksVehicleFramework",
-   "jar": "mods/DeadWorksVehicleFramework/42/media/java/DeadWorksVehicleFramework.jar",
-   "sha256": "19b627aa8d6cb599d8d811e718f61be9db5c118216c796324972aa3826994f39",
-   "signed": false
-  },
-  {
    "workshop_id": "3819976507",
    "item": "Hot Brass for Viewpoint",
    "mod_id": "HotBrassViewpoint",
@@ -99,14 +91,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3822122728",
-   "item": "Night Vision RABS (Viewpoint)",
-   "mod_id": "RNVTs",
-   "jar": "mods/RNVTs/42/media/java/client/RNVTs.jar",
-   "sha256": "0e3faa23f9bd7d9b28d431af638aac2f1a8481e4f47c507bd026bbe385bdc548",
-   "signed": false
-  },
-  {
    "workshop_id": "3819476262",
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
@@ -119,7 +103,7 @@
    "item": "Oz's NYC Facades (building skins, roofs, towers)",
    "mod_id": "OzNYCFacades",
    "jar": "mods/OzNYCFacades/42/media/java/client/OzNYCFacades.jar",
-   "sha256": "afef64ef7dad82d76e5f7b0d96e76c10cd1b44258e8d85ebf3bb0adc2f401c47",
+   "sha256": "3787fa2553755a42b1ad5df1b723ca3bdc1b1f3ae2b148a78b0ac9b4d9cbe8d7",
    "signed": false
   },
   {
@@ -143,7 +127,7 @@
    "item": "Project Viewpoint",
    "mod_id": "Viewpoint",
    "jar": "mods/Viewpoint/42/media/java/client/Viewpoint.jar",
-   "sha256": "096bd37d63cb699ac95e9e7ea5245a1b9b5ff08c5161db35f6733b1d1c42b064",
+   "sha256": "67f83b05a27c4112ce9edc596da7c491d51e9015862dccafa8495f0b9352625e",
    "signed": false
   },
   {
@@ -179,14 +163,6 @@
    "signed": true
   },
   {
-   "workshop_id": "3819322670",
-   "item": "Project Viewpoint - Visible Helicopter Events",
-   "mod_id": "VisibleHelicopterEvent",
-   "jar": "mods/VisibleHelicopterEvent/42/media/java/client/VisibleHelicopterEvent.jar",
-   "sha256": "946b16c708f64b1ed2b6f0682a0474a42ac5bf70819b9938c691d2d3212965fd",
-   "signed": false
-  },
-  {
    "workshop_id": "3813889000",
    "item": "Project Viewpoint Marking Beams (PZ3D Marking Beams) [B42.22.2] [SP/MP]",
    "mod_id": "aparosa_pz3dBeams",
@@ -215,15 +191,7 @@
    "item": "Project Viewpoint: KK's General Mod Map Fix",
    "mod_id": "PV-modmapbakefix",
    "jar": "mods/PV-modmapbakefix/42/media/java/client/PV-modmapbakefix.jar",
-   "sha256": "b1ac9475d1d506ca4f5498ca4e158612ee6f63d131d3ffe86986b25c6cd9ebe7",
-   "signed": false
-  },
-  {
-   "workshop_id": "3812612054",
-   "item": "Project Viewpoint: Recoil & ADS",
-   "mod_id": "ProjectViewpointADS",
-   "jar": "mods/ProjectViewpointADS/42/media/java/client/ProjectViewpointADS.jar",
-   "sha256": "56c802cd04ffc6b9388aa2c550f2dbde555997949cfedfd0bedf872fa44bb84e",
+   "sha256": "8310928fd141ffc1b238c9b1b7eb96fcf417989aa8dffdd19a850dd24774e018",
    "signed": false
   },
   {
@@ -259,14 +227,6 @@
    "signed": false
   },
   {
-   "workshop_id": "3813032735",
-   "item": "Shoot to Thrill (formerly I SEE THEM)",
-   "mod_id": "ShootToThrillMultiplayer",
-   "jar": "mods/ShootToThrillMultiplayer/42/media/java/ISeeThem.jar",
-   "sha256": "ea767ef9d0cd72740158503aa5215e66b06c38831990c4bd932af93a9c113015",
-   "signed": false
-  },
-  {
    "workshop_id": "3826681202",
    "item": "Smooth Performance Optimizer",
    "mod_id": "SmoothPerformanceOptimizerErunestJava",
@@ -275,35 +235,11 @@
    "signed": true
   },
   {
-   "workshop_id": "3824826320",
-   "item": "Viewpoint - 3D Military Armory [B42.21] [WIP]",
-   "mod_id": "DeadWorksGunRacks",
-   "jar": "mods/DeadWorksGunRacks/42/media/java/DeadWorksGunRacks.jar",
-   "sha256": "7a51c494725307e1ea5da1743f06e45df789ccc0ad2ae1f377b90f4401b8b483",
-   "signed": false
-  },
-  {
-   "workshop_id": "3813194971",
-   "item": "Viewpoint - Advanced Throwables",
-   "mod_id": "ViewpointAdvancedThrowables",
-   "jar": "mods/ViewpointAdvancedThrowables/42/media/java/client/ViewpointAdvancedThrowables.jar",
-   "sha256": "4e51004f3c3f7c2737f18e065076789c8753c6923f063d3fd7cbc1ff222e955e",
-   "signed": false
-  },
-  {
    "workshop_id": "3812984535",
    "item": "Viewpoint - Immersive Effects",
    "mod_id": "ViewpointImmersiveEffects",
    "jar": "mods/ViewpointImmersiveEffects/42/media/java/client/ImmersiveEffects.jar",
    "sha256": "bf54ae154a2ececa97f3f21189aa9daa00ff95a061047df91752b12d47b5ee4f",
-   "signed": false
-  },
-  {
-   "workshop_id": "3812702301",
-   "item": "Viewpoint Advanced Movement",
-   "mod_id": "ViewpointAdvancedMovement",
-   "jar": "mods/ViewpointAdvancedMovement/42/media/java/client/ViewpointAdvancedMovement.jar",
-   "sha256": "a7a704ab5b2220e8cabecc518adb6034b3cba3dcba04163e886034ba176e44b0",
    "signed": false
   },
   {
@@ -344,14 +280,6 @@
    "mod_id": "ViewpointTextureFix",
    "jar": "mods/ViewpointTextureFix/42/media/java/client/ViewpointTextureFix.jar",
    "sha256": "271958ab22e2228d48cc74e6b1e3f25657cc8cee8b96e865cd2ac6cec7fd7b8f",
-   "signed": false
-  },
-  {
-   "workshop_id": "3812864848",
-   "item": "Viewpoint True Ballistics",
-   "mod_id": "ViewpointTrueBallistics",
-   "jar": "mods/ViewpointTrueBallistics/42/media/java/ViewpointTrueBallistics.jar",
-   "sha256": "aaee2b68fd04aa516a388880cf000ef6e0775a5bdf30355a8d937048a16fea40",
    "signed": false
   },
   {
