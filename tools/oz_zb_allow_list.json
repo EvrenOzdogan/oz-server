@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-11T10:41:07Z",
+ "generated": "2026-11-11T10:58:42Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -183,7 +183,7 @@
    "item": "Project Viewpoint QOL",
    "mod_id": "ProjectViewpointQOL",
    "jar": "mods/ProjectViewpointQOL/42/media/java/client/ProjectViewpointQOL.jar",
-   "sha256": "785e3cd92555496a4db82940e5fd9ecb370b82103d3ddeb39ee4139374aaebc4",
+   "sha256": "541d2f0d098c25fe0c257ff15dc2f97378075e2de83affe28ce495a3cdc918f8",
    "signed": false
   },
   {
