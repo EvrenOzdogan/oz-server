@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-12T09:01:58Z",
+ "generated": "2026-11-12T11:06:04Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -295,7 +295,7 @@
    "item": "Visible Vehicle Coupling - Viewpoint Addon",
    "mod_id": "VVCViewpoint",
    "jar": "mods/VVCViewpoint/42/media/java/client/VVCViewpoint.jar",
-   "sha256": "267b0a762dbd3cb5142309a984651a14f8bc0f95e3c06612f5bcd9eb3966847e",
+   "sha256": "e9b9075541f78fd4f5c669c5d915248a7b7f21d4e9f581c7b0c119e572404beb",
    "signed": false
   },
   {
