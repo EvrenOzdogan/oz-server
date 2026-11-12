@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-12T11:06:04Z",
+ "generated": "2026-11-12T13:41:31Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -308,10 +308,10 @@
   },
   {
    "workshop_id": "3819844505",
-   "item": "VRAM Steady - Fix VRAM filling up (B42) (AI)",
+   "item": "VRAM Steady - Fix VRAM filling up (B42)",
    "mod_id": "VRAMSteady",
    "jar": "mods/VRAMSteady/42/media/java/client/VRAMSteady.jar",
-   "sha256": "321e923cd4878719b94f37de3a20a88885496a5506e1d3a46d6dcedb8b0c5b40",
+   "sha256": "067f0701e5897bb989bf75c39727ed88a9d20800e00836868125f100c9b9fdaf",
    "signed": false
   }
  ]
