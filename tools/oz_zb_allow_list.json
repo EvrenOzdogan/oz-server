@@ -1,6 +1,6 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-13T15:12:29Z",
+ "generated": "2026-11-13T22:23:56Z",
  "jars": [
   {
    "workshop_id": "3811472160",
@@ -119,7 +119,7 @@
    "item": "Oz's Server Pack (menu, spawn hall, traders, HUD)",
    "mod_id": "OzServerPack",
    "jar": "mods/OzServerPack/42/media/java/OzServerPack.jar",
-   "sha256": "2d7fbd4b5e1db9441d60bf75ecec7260f4170276d5e7f4181c16d1c3f2ffb234",
+   "sha256": "6c41c0e93a4b6e5f9ef5013a67d9783fdce85f2969dc9370af6ddb9271c6fda4",
    "signed": false
   },
   {
