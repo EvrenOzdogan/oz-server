@@ -1,7 +1,15 @@
 {
  "note": "Java jars the Oz Server runs (ZombieBuddy mods enabled in Mods=), pinned to the reviewed SHA-256. Rebuild with --build-list after mod updates.",
- "generated": "2026-11-14T13:45:01Z",
+ "generated": "2026-11-14T18:22:55Z",
  "jars": [
+  {
+   "workshop_id": "3821860091",
+   "item": "(OBSOLETE) VoidFix - Viewpoint Eye Culling",
+   "mod_id": "ViewpointEyeCulling",
+   "jar": "mods/ViewpointEyeCulling/42/media/java/client/ViewpointEyeCulling.jar",
+   "sha256": "53614eef53c037fc8cf9165dc0bfbb87c3f30d234ec0d47691f0202312da8301",
+   "signed": false
+  },
   {
    "workshop_id": "3811472160",
    "item": "3d Blood VFX for Viewpoint (experimental)",
@@ -95,7 +103,7 @@
    "item": "Oz's Fast Boot & Loading Screens",
    "mod_id": "OzFastBoot",
    "jar": "mods/OzFastBoot/42/media/java/client/OzFastBoot.jar",
-   "sha256": "85b10a749522e39f4ebd479fdc15d2e4f4bc12e2604341af0ee761a7e75d5165",
+   "sha256": "9ebd2c289b06ed529fbc20f68349518795575fbe0ee42f1b0842979634f9c360",
    "signed": false
   },
   {
@@ -103,7 +111,7 @@
    "item": "Oz's NYC Facades (building skins, roofs, towers)",
    "mod_id": "OzNYCFacades",
    "jar": "mods/OzNYCFacades/42/media/java/client/OzNYCFacades.jar",
-   "sha256": "5bfaecd2486c873af22897751a3a08c05a584130e3cd932b8238c701b1ae355b",
+   "sha256": "85be33dc7ec9c3244ca2d4688d1e2ced4a9f4b64fc7778b644ce90c090678a41",
    "signed": false
   },
   {
@@ -296,14 +304,6 @@
    "mod_id": "VVCViewpoint",
    "jar": "mods/VVCViewpoint/42/media/java/client/VVCViewpoint.jar",
    "sha256": "e9b9075541f78fd4f5c669c5d915248a7b7f21d4e9f581c7b0c119e572404beb",
-   "signed": false
-  },
-  {
-   "workshop_id": "3821860091",
-   "item": "VoidFix - Viewpoint Eye Culling Fix (+3P Flashlight Fix)",
-   "mod_id": "ViewpointEyeCulling",
-   "jar": "mods/ViewpointEyeCulling/42/media/java/client/ViewpointEyeCulling.jar",
-   "sha256": "53614eef53c037fc8cf9165dc0bfbb87c3f30d234ec0d47691f0202312da8301",
    "signed": false
   },
   {
